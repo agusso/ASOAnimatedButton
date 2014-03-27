@@ -1,0 +1,1 @@
+pod "ASOAnimatedButton", :path => "../ASOAnimatedButton.podspec"
