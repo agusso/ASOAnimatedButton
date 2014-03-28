@@ -1,1 +1,13 @@
-pod "ASOAnimatedButton", :path => "../ASOAnimatedButton.podspec"
+platform :ios, '7.0' 
+
+workspace 'Example.xcworkspace'
+
+link_with 'BounceButtonExample'
+xcodeproj 'BounceButtonExample/BounceButtonExample.xcodeproj'
+pod 'ASOAnimatedButton', :path => '../ASOAnimatedButton.podspec'
+
+target :TwoStateButtonExample do
+   link_with 'TwoStateButtonExample'
+   xcodeproj 'TwoStateButtonExample/TwoStateButtonExample.xcodeproj'
+   pod 'ASOAnimatedButton/TwoStateButton', :path => '../ASOAnimatedButton.podspec'
+end

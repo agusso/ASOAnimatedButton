@@ -1,0 +1,19 @@
+PODS:
+  - ASOAnimatedButton (0.1.0):
+    - ASOAnimatedButton/BounceButton
+    - ASOAnimatedButton/TwoStateButton
+  - ASOAnimatedButton/BounceButton (0.1.0)
+  - ASOAnimatedButton/TwoStateButton (0.1.0)
+
+DEPENDENCIES:
+  - ASOAnimatedButton (from `../ASOAnimatedButton.podspec`)
+  - ASOAnimatedButton/TwoStateButton (from `../ASOAnimatedButton.podspec`)
+
+EXTERNAL SOURCES:
+  ASOAnimatedButton:
+    :path: ../ASOAnimatedButton.podspec
+
+SPEC CHECKSUMS:
+  ASOAnimatedButton: 76b782615f94a707f27d820344c7760b811bd10c
+
+COCOAPODS: 0.29.0
