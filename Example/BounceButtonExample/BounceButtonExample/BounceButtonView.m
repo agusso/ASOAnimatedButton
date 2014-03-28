@@ -1,14 +1,14 @@
 //
-//  BATMMenuItemView.m
-//  BouncingAlaTumblrMenu
+//  BounceButtonView.m
+//  BounceButtonExample
 //
-//  Created by Agus Soedibjo on 11/2/14.
+//  Created by Agus Soedibjo on 28/3/14.
 //  Copyright (c) 2014 Agus Soedibjo. All rights reserved.
 //
 
-#import "BATMMenuItemView.h"
+#import "BounceButtonView.h"
 
-@implementation BATMMenuItemView
+@implementation BounceButtonView
 
 - (id)initWithFrame:(CGRect)frame
 {

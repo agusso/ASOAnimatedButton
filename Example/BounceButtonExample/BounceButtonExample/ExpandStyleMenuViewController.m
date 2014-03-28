@@ -1,14 +1,14 @@
 //
-//  BATMViewController.m
-//  BouncingAlaTumblrMenu
+//  ExpandStyleMenuViewController.m
+//  BounceButtonExample
 //
-//  Created by Agus Soedibjo on 7/2/14.
+//  Created by Agus Soedibjo on 28/3/14.
 //  Copyright (c) 2014 Agus Soedibjo. All rights reserved.
 //
 
-#import "BATMViewController.h"
+#import "ExpandStyleMenuViewController.h"
 
-@implementation BATMViewController
+@implementation ExpandStyleMenuViewController
 
 - (void)viewDidLoad
 {
@@ -19,15 +19,15 @@
     
     // Get the 'menu item view' from storyboard
     UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:nil];
-    UIViewController *menuItemsVC = (UIViewController *)[mainStoryboard instantiateViewControllerWithIdentifier:@"MenuItems"];
-    self.menuItemView = (BATMMenuItemView *)menuItemsVC.view;
+    UIViewController *menuItemsVC = (UIViewController *)[mainStoryboard instantiateViewControllerWithIdentifier:@"ExpandMenu"];
+    self.menuItemView = (BounceButtonView *)menuItemsVC.view;
     
     NSArray *arrMenuItemButtons = [[NSArray alloc] initWithObjects:self.menuItemView.menuItem1,
                                    self.menuItemView.menuItem2,
                                    self.menuItemView.menuItem3,
                                    self.menuItemView.menuItem4,
                                    nil]; // Add all of the defined 'menu item button' to 'menu item view'
-    [self.menuItemView addMenuItemButtons:arrMenuItemButtons];
+    [self.menuItemView addBounceButtons:arrMenuItemButtons];
     
     // Set as delegate of 'menu item view'
     [self.menuItemView setDelegate:self];
@@ -49,22 +49,27 @@
 {
     if ([sender isOn]) {
         // Show 'menu item view' and expand its 'menu item button'
-        [self.menuButton addMenuItemView:self.menuItemView];
+        [self.menuButton addCustomView:self.menuItemView];
         [self.menuItemView expandWithAnimationStyle:ASOAnimationStyleSequential];
     }
     else {
         // Collapse all 'menu item button' and remove 'menu item view'
         [self.menuItemView collapseWithAnimationStyle:ASOAnimationStyleSequential];
-        [self.menuButton removeMenuItemView:self.menuItemView interval:[self.menuItemView.collapsedViewDuration doubleValue]];
+        [self.menuButton removeCustomView:self.menuItemView interval:[self.menuItemView.collapsedViewDuration doubleValue]];
     }
 }
 
 #pragma mark - Menu item view delegate method
 
-- (void)didSelectMenuItemAtIndex:(NSUInteger)index
+- (void)didSelectBounceButtonAtIndex:(NSUInteger)index
 {
+    // Collapse all 'menu item button' and remove 'menu item view' once a menu item is selected
+    [self.menuButton sendActionsForControlEvents:UIControlEventTouchUpInside];
+    
     // Set your custom action for each selected 'menu item button' here
-    NSLog(@"'Menu Item Button %x' is selected", (short)index);
+    NSString *alertViewTitle = [NSString stringWithFormat:@"Menu Item %x is selected", (short)index];
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:alertViewTitle message:nil delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [alertView show];
 }
 
 - (void)willAnimateRotationToInterfaceOrientation:
@@ -76,6 +81,7 @@
 }
 
 - (IBAction)tapMeButtonAction:(id)sender {
-     NSLog(@"'Tap Me' button is tapped");
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Tap Me button is selected" message:nil delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [alertView show];
 }
 @end

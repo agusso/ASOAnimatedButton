@@ -1,14 +1,14 @@
 //
-//  BATMMenuItemView.h
-//  BouncingAlaTumblrMenu
+//  BounceButtonView.h
+//  BounceButtonExample
 //
-//  Created by Agus Soedibjo on 11/2/14.
+//  Created by Agus Soedibjo on 28/3/14.
 //  Copyright (c) 2014 Agus Soedibjo. All rights reserved.
 //
 
-#import "ASOMenuItemView.h"
+#import "ASOBounceButtonView.h"
 
-@interface BATMMenuItemView : ASOMenuItemView
+@interface BounceButtonView : ASOBounceButtonView
 
 @property (weak, nonatomic) IBOutlet UIButton *menuItem1;
 @property (weak, nonatomic) IBOutlet UIButton *menuItem2;

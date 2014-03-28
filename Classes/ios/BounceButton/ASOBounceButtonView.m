@@ -133,7 +133,11 @@
         // Create the animation object, specifying the position property as the key path.
         theAnimation=[CAKeyframeAnimation animationWithKeyPath:@"position"];
         theAnimation.path=thePath;
-        theAnimation.duration = [self.speed floatValue] * (item + 1);
+        if (animationStyle == ASOAnimationStyleConcurrent) {
+            theAnimation.duration = [self.speed floatValue];
+        } else {
+            theAnimation.duration = [self.speed floatValue] * (item + 1);
+        }
 
         // Add the animation to the layer.
         [[self.bounceButtons objectAtIndex:item] layer].opacity = 1.0;
@@ -175,13 +179,24 @@
         CABasicAnimation *theFadeOutAnimation = [CABasicAnimation animationWithKeyPath:@"opacity"];
         theFadeOutAnimation.fromValue = [NSNumber numberWithFloat:1.0];
         theFadeOutAnimation.toValue = [NSNumber numberWithFloat:0.0];
-        theFadeOutAnimation.duration = [self.fadeOutDuration floatValue] * (item + 1);
+        
+        if (animationStyle == ASOAnimationStyleConcurrent) {
+            theFadeOutAnimation.duration = [self.speed floatValue];
+        } else {
+            theFadeOutAnimation.duration = [self.speed floatValue] * (item + 1);
+        }
+        
         [[self.bounceButtons objectAtIndex:item] layer].opacity = 0.0;
         
         CAAnimationGroup *groupedAnimation = [CAAnimationGroup animation];
         groupedAnimation.animations = [NSArray arrayWithObjects:collapsedAnimation, theFadeOutAnimation, nil];
-        groupedAnimation.duration = [self.speed floatValue] * (item + 1);
         
+        if (animationStyle == ASOAnimationStyleConcurrent) {
+            groupedAnimation.duration = [self.speed floatValue];
+        } else {
+            groupedAnimation.duration = [self.speed floatValue] * (item + 1);
+        }
+
         [[[self.bounceButtons objectAtIndex:item] layer] addAnimation:groupedAnimation forKey:@"collapsed-fadeout"];
     }
     

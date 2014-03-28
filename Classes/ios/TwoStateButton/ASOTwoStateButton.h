@@ -17,7 +17,7 @@
 @property (readonly, nonatomic) BOOL isOn;
 
 - (void)initAnimationWithFadeEffectEnabled:(BOOL)fadeEnabled;
-- (void)addMenuItemView:(UIView *)menuItemView;
-- (void)removeMenuItemView:(UIView *)menuItemView interval:(double)delayInSeconds;
+- (void)addCustomView:(UIView *)customView;
+- (void)removeCustomView:(UIView *)customView interval:(double)delayInSeconds;
 
 @end

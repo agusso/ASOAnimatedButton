@@ -1,13 +1,89 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5023" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8YX-ce-x5E">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8YX-ce-x5E">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier First View Controller - First-->
+        <!--View Controller-->
+        <scene sceneID="8OF-6K-mEr">
+            <objects>
+                <viewController storyboardIdentifier="ArchMenu" id="t7k-St-phy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tyj-lx-M16"/>
+                        <viewControllerLayoutGuide type="bottom" id="cHP-c8-Z1a"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SEj-q7-umF" customClass="BounceButtonView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fo7-7E-BHV" customClass="ASOTwoStateButton">
+                                <rect key="frame" x="20" y="35" width="56" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="OnStateButtonImage">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="OffStateImageName" value="OffStateButtonImage"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tXe-Sy-te9">
+                                <rect key="frame" x="162" y="23" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="MenuItem1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQU-QZ-foA">
+                                <rect key="frame" x="141" y="92" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="MenuItem2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPT-p6-Xlc">
+                                <rect key="frame" x="94" y="145" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="MenuItem3">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GTE-7Y-UWE">
+                                <rect key="frame" x="20" y="174" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="MenuItem4">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GTE-7Y-UWE" firstAttribute="top" secondItem="SEj-q7-umF" secondAttribute="top" constant="174" id="2gV-5q-9QH"/>
+                            <constraint firstItem="fo7-7E-BHV" firstAttribute="leading" secondItem="SEj-q7-umF" secondAttribute="leading" constant="20" id="4Iw-kN-xn1"/>
+                            <constraint firstItem="tXe-Sy-te9" firstAttribute="top" secondItem="SEj-q7-umF" secondAttribute="top" constant="23" id="AnR-ma-6S2"/>
+                            <constraint firstItem="bPT-p6-Xlc" firstAttribute="leading" secondItem="SEj-q7-umF" secondAttribute="leading" constant="94" id="EgT-o7-hbh"/>
+                            <constraint firstItem="fo7-7E-BHV" firstAttribute="top" secondItem="SEj-q7-umF" secondAttribute="top" constant="35" id="Hjp-83-PYb"/>
+                            <constraint firstItem="GTE-7Y-UWE" firstAttribute="leading" secondItem="SEj-q7-umF" secondAttribute="leading" constant="20" id="VdJ-Gw-Dyh"/>
+                            <constraint firstItem="bPT-p6-Xlc" firstAttribute="top" secondItem="SEj-q7-umF" secondAttribute="top" constant="145" id="VlN-uJ-XXX"/>
+                            <constraint firstItem="PQU-QZ-foA" firstAttribute="top" secondItem="SEj-q7-umF" secondAttribute="top" constant="92" id="lyM-fM-FVY"/>
+                            <constraint firstItem="tXe-Sy-te9" firstAttribute="leading" secondItem="SEj-q7-umF" secondAttribute="leading" constant="162" id="rnu-r3-7Km"/>
+                            <constraint firstItem="PQU-QZ-foA" firstAttribute="leading" secondItem="SEj-q7-umF" secondAttribute="leading" constant="141" id="xJw-ux-YV2"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="menuItem1" destination="tXe-Sy-te9" id="AWg-Jr-06m"/>
+                            <outlet property="menuItem2" destination="PQU-QZ-foA" id="8ys-3z-YK4"/>
+                            <outlet property="menuItem3" destination="bPT-p6-Xlc" id="8Pb-8p-Xol"/>
+                            <outlet property="menuItem4" destination="GTE-7Y-UWE" id="qaG-11-OkV"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0BH-Df-QJ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="653" y="-888"/>
+        </scene>
+        <!--Expand Style Menu View Controller - Expand Style Menu-->
         <scene sceneID="W3I-pn-N6e">
             <objects>
-                <viewController title="First" id="CZ4-MO-1fc" customClass="FirstViewController" sceneMemberID="viewController">
+                <viewController title="Expand Style Menu" id="CZ4-MO-1fc" customClass="ExpandStyleMenuViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="s9W-kb-ARv"/>
                         <viewControllerLayoutGuide type="bottom" id="dtj-EO-iXF"/>
@@ -16,43 +92,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Zhg-ve-WU7">
-                                <rect key="frame" x="20" y="158" width="280" height="42"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tZ3-Hv-Q7E">
-                                <rect key="frame" x="20" y="240" width="280" height="88"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="88" id="rDj-Sg-2Zj"/>
-                                </constraints>
-                                <string key="text">Loaded by the first view controller — an instance of FirstViewController — specified in the app delegate.</string>
-                                <fontDescription key="fontDescription" type="system" size="system"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J5O-a0-GIU" customClass="ASOTwoStateButton">
+                                <rect key="frame" x="244" y="432" width="56" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="OnStateButtonImage">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="OffStateImageName" value="OffStateButtonImage"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="menuButtonAction:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="nta-kk-6Ft"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9n-ac-mN1">
+                                <rect key="frame" x="135" y="57" width="51" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Tap Me">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapMeButtonAction:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="jho-ew-FeX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="tZ3-Hv-Q7E" secondAttribute="trailing" constant="20" symbolic="YES" id="94m-GQ-azi"/>
-                            <constraint firstItem="tZ3-Hv-Q7E" firstAttribute="top" secondItem="Zhg-ve-WU7" secondAttribute="bottom" constant="40" id="G3o-MK-III"/>
-                            <constraint firstItem="Zhg-ve-WU7" firstAttribute="leading" secondItem="2VE-Yg-loa" secondAttribute="leading" constant="20" symbolic="YES" id="JQj-gp-vk2"/>
-                            <constraint firstAttribute="trailing" secondItem="Zhg-ve-WU7" secondAttribute="trailing" constant="20" symbolic="YES" id="eHs-J5-0HT"/>
-                            <constraint firstItem="tZ3-Hv-Q7E" firstAttribute="leading" secondItem="2VE-Yg-loa" secondAttribute="leading" constant="20" symbolic="YES" id="lKy-m9-LcB"/>
-                            <constraint firstAttribute="centerY" secondItem="tZ3-Hv-Q7E" secondAttribute="centerY" id="xLM-BA-nZb"/>
+                            <constraint firstAttribute="trailing" secondItem="J5O-a0-GIU" secondAttribute="trailing" constant="20" id="4bG-OQ-VRO"/>
+                            <constraint firstAttribute="centerX" secondItem="R9n-ac-mN1" secondAttribute="centerX" id="BJF-eL-RZx"/>
+                            <constraint firstAttribute="bottom" secondItem="J5O-a0-GIU" secondAttribute="bottom" constant="80" id="tea-iJ-wwC"/>
+                            <constraint firstAttribute="bottom" secondItem="R9n-ac-mN1" secondAttribute="bottom" constant="481" id="zqm-Ts-naf"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="u1e-5L-l1D"/>
+                    <tabBarItem key="tabBarItem" title="Expand" image="first" id="u1e-5L-l1D"/>
+                    <connections>
+                        <outlet property="menuButton" destination="J5O-a0-GIU" id="eRe-Rl-s9T"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qh2-T1-AhA" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="653" y="-138"/>
         </scene>
-        <!--class Prefix:identifier Second View Controller - Second-->
+        <!--Arch Style Menu View Controller - Second-->
         <scene sceneID="ot8-2e-RuS">
             <objects>
-                <viewController title="Second" id="QUy-BD-bpt" customClass="SecondViewController" sceneMemberID="viewController">
+                <viewController title="Second" id="QUy-BD-bpt" customClass="ArchStyleMenuViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FgS-U6-xeU"/>
                         <viewControllerLayoutGuide type="bottom" id="stI-4g-hlJ"/>
@@ -61,38 +145,123 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="29h-N2-YGT">
-                                <rect key="frame" x="20" y="158" width="280" height="42"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DcM-Fx-MKR">
-                                <rect key="frame" x="20" y="240" width="280" height="88"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="88" id="9fN-Zf-E0i"/>
-                                </constraints>
-                                <string key="text">Loaded by the second view controller — an instance of SecondViewController — specified in the app delegate.</string>
-                                <fontDescription key="fontDescription" type="system" size="system"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zGp-jD-Sbq" customClass="ASOTwoStateButton">
+                                <rect key="frame" x="20" y="35" width="56" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="OnStateButtonImage">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="OffStateImageName" value="OffStateButtonImage"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="menuButtonAction:" destination="QUy-BD-bpt" eventType="touchUpInside" id="vUi-yv-sGs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIC-C5-EGf">
+                                <rect key="frame" x="137" y="450" width="51" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Tap Me">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapMeButtonAction:" destination="QUy-BD-bpt" eventType="touchUpInside" id="hqk-KS-AKn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="29h-N2-YGT" firstAttribute="leading" secondItem="gMD-aP-Fq6" secondAttribute="leading" constant="20" symbolic="YES" id="4te-rk-9Fp"/>
-                            <constraint firstAttribute="trailing" secondItem="29h-N2-YGT" secondAttribute="trailing" constant="20" symbolic="YES" id="FIx-Zl-RBr"/>
-                            <constraint firstItem="DcM-Fx-MKR" firstAttribute="top" secondItem="29h-N2-YGT" secondAttribute="bottom" constant="40" id="Gb1-a9-eY8"/>
-                            <constraint firstAttribute="trailing" secondItem="DcM-Fx-MKR" secondAttribute="trailing" constant="20" symbolic="YES" id="XTh-ji-q0k"/>
-                            <constraint firstItem="DcM-Fx-MKR" firstAttribute="leading" secondItem="gMD-aP-Fq6" secondAttribute="leading" constant="20" symbolic="YES" id="l9f-S9-V20"/>
-                            <constraint firstAttribute="centerY" secondItem="DcM-Fx-MKR" secondAttribute="centerY" id="lHZ-e8-ii2"/>
+                            <constraint firstItem="zGp-jD-Sbq" firstAttribute="top" secondItem="gMD-aP-Fq6" secondAttribute="top" constant="35" id="dec-rJ-goe"/>
+                            <constraint firstItem="zGp-jD-Sbq" firstAttribute="leading" secondItem="gMD-aP-Fq6" secondAttribute="leading" constant="20" id="hTN-Af-M8O"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="Z7h-1E-pvt"/>
+                    <tabBarItem key="tabBarItem" title="Arch" image="second" id="Z7h-1E-pvt"/>
+                    <connections>
+                        <outlet property="menuButton" destination="zGp-jD-Sbq" id="sJG-6U-eYj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3qq-4t-Ow8" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="653" y="498"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KLf-qc-GRL">
+            <objects>
+                <viewController storyboardIdentifier="ExpandMenu" id="je4-VM-Dsk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n2f-Yw-SA2"/>
+                        <viewControllerLayoutGuide type="bottom" id="yKI-wf-5vE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kOX-He-yqg" customClass="BounceButtonView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oP4-YD-hiO">
+                                <rect key="frame" x="233" y="365" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="MenuItem1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b38-KI-wJ5">
+                                <rect key="frame" x="213" y="293" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="MenuItem2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ath-pJ-IYS">
+                                <rect key="frame" x="184" y="223" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="MenuItem3">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kf2-TI-hk1">
+                                <rect key="frame" x="144" y="160" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="MenuItem4">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AuY-oc-i4u" customClass="ASOTwoStateButton">
+                                <rect key="frame" x="244" y="432" width="56" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="OnStateButtonImage">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="OffStateImageName" value="OffStateButtonImage"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="menuButtonAction:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="qjB-pw-Wy4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="AuY-oc-i4u" secondAttribute="bottom" constant="80" id="18a-Q2-xrc"/>
+                            <constraint firstAttribute="trailing" secondItem="oP4-YD-hiO" secondAttribute="trailing" constant="37" id="WLi-rw-wsM"/>
+                            <constraint firstAttribute="bottom" secondItem="Kf2-TI-hk1" secondAttribute="bottom" constant="358" id="WgE-Ea-mJa"/>
+                            <constraint firstAttribute="trailing" secondItem="Ath-pJ-IYS" secondAttribute="trailing" constant="86" id="ZOR-4u-n7I"/>
+                            <constraint firstAttribute="bottom" secondItem="b38-KI-wJ5" secondAttribute="bottom" constant="225" id="a6W-Js-T5t"/>
+                            <constraint firstAttribute="trailing" secondItem="Kf2-TI-hk1" secondAttribute="trailing" constant="126" id="aaV-jN-f0G"/>
+                            <constraint firstAttribute="trailing" secondItem="b38-KI-wJ5" secondAttribute="trailing" constant="57" id="f9Z-xa-rBt"/>
+                            <constraint firstAttribute="trailing" secondItem="AuY-oc-i4u" secondAttribute="trailing" constant="20" id="h9D-GO-3g3"/>
+                            <constraint firstAttribute="bottom" secondItem="oP4-YD-hiO" secondAttribute="bottom" constant="153" id="oXB-dC-kgd"/>
+                            <constraint firstAttribute="bottom" secondItem="Ath-pJ-IYS" secondAttribute="bottom" constant="295" id="zfD-uO-Rfw"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="menuItem1" destination="oP4-YD-hiO" id="gUJ-oX-w6r"/>
+                            <outlet property="menuItem2" destination="b38-KI-wJ5" id="wYM-8s-CfP"/>
+                            <outlet property="menuItem3" destination="Ath-pJ-IYS" id="prg-p2-EJp"/>
+                            <outlet property="menuItem4" destination="Kf2-TI-hk1" id="rgJ-Pf-bOi"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="laF-2f-G9w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112" y="-888"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Vex-rW-GRa">
@@ -111,12 +280,17 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FNP-y4-bzi" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="180"/>
+            <point key="canvasLocation" x="112" y="190"/>
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="16" height="16"/>
-        <image name="second" width="16" height="16"/>
+        <image name="MenuItem1" width="50" height="50"/>
+        <image name="MenuItem2" width="50" height="50"/>
+        <image name="MenuItem3" width="50" height="50"/>
+        <image name="MenuItem4" width="50" height="50"/>
+        <image name="OnStateButtonImage" width="56" height="56"/>
+        <image name="first" width="30" height="30"/>
+        <image name="second" width="30" height="30"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

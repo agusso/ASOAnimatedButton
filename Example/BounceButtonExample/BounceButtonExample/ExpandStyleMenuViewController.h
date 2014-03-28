@@ -1,20 +1,20 @@
 //
-//  BATMViewController.h
-//  BouncingAlaTumblrMenu
+//  ExpandStyleMenuViewController.h
+//  BounceButtonExample
 //
-//  Created by Agus Soedibjo on 7/2/14.
+//  Created by Agus Soedibjo on 28/3/14.
 //  Copyright (c) 2014 Agus Soedibjo. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import "ASOTwoStateButton.h"
-#import "ASOMenuItemViewDelegate.h"
-#import "BATMMenuItemView.h"
+#import "ASOBounceButtonViewDelegate.h"
+#import "BounceButtonView.h"
 
-@interface BATMViewController : UIViewController <ASOMenuItemViewDelegate>
+@interface ExpandStyleMenuViewController : UIViewController <ASOBounceButtonViewDelegate>
 
 @property (strong, nonatomic) IBOutlet ASOTwoStateButton *menuButton;
-@property (strong, nonatomic) BATMMenuItemView *menuItemView;
+@property (strong, nonatomic) BounceButtonView *menuItemView;
 
 - (IBAction)menuButtonAction:(id)sender;
 - (IBAction)tapMeButtonAction:(id)sender;

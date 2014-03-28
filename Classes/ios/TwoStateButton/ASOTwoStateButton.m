@@ -12,7 +12,7 @@
 
 const int16_t kOnStateViewTag = 700;
 const int16_t kOffStateViewTag = 701;
-const int16_t kMenuItemViewTag = 702;
+const int16_t kCustomViewTag = 702;
 
 @interface ASOTwoStateButton()
 
@@ -121,30 +121,30 @@ const int16_t kMenuItemViewTag = 702;
     }
 }
 
-- (void)addMenuItemView:(UIView *)menuItemView
+- (void)addCustomView:(UIView *)customView
 {
-    [menuItemView setTag:kMenuItemViewTag];
-    [menuItemView setTranslatesAutoresizingMaskIntoConstraints:NO];
-    [[self superview] insertSubview:menuItemView belowSubview:self];
+    [customView setTag:kCustomViewTag];
+    [customView setTranslatesAutoresizingMaskIntoConstraints:NO];
+    [[self superview] insertSubview:customView belowSubview:self];
     
-    // Define Auto Layout for the menu Item View related to the superview
-    [self setupConstraintWithView:menuItemView];
+    // Define Auto Layout for the custom view related to the superview
+    [self setupConstraintWithView:customView];
 }
 
-- (void)setupConstraintWithView:(UIView *)menuItemView
+- (void)setupConstraintWithView:(UIView *)customView
 {
-    [self.superview addConstraint:[NSLayoutConstraint constraintWithItem:menuItemView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:self.superview attribute:NSLayoutAttributeWidth multiplier:1.0 constant:0.0]];
-    [self.superview addConstraint:[NSLayoutConstraint constraintWithItem:menuItemView attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:self.superview attribute:NSLayoutAttributeHeight multiplier:1.0 constant:0.0]];
-    [self.superview addConstraint:[NSLayoutConstraint constraintWithItem:menuItemView attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:self.superview attribute:NSLayoutAttributeCenterX multiplier:1.0 constant:0.0]];
-    [self.superview addConstraint:[NSLayoutConstraint constraintWithItem:menuItemView attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:self.superview attribute:NSLayoutAttributeCenterY multiplier:1.0 constant:0.0]];
+    [self.superview addConstraint:[NSLayoutConstraint constraintWithItem:customView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:self.superview attribute:NSLayoutAttributeWidth multiplier:1.0 constant:0.0]];
+    [self.superview addConstraint:[NSLayoutConstraint constraintWithItem:customView attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:self.superview attribute:NSLayoutAttributeHeight multiplier:1.0 constant:0.0]];
+    [self.superview addConstraint:[NSLayoutConstraint constraintWithItem:customView attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:self.superview attribute:NSLayoutAttributeCenterX multiplier:1.0 constant:0.0]];
+    [self.superview addConstraint:[NSLayoutConstraint constraintWithItem:customView attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:self.superview attribute:NSLayoutAttributeCenterY multiplier:1.0 constant:0.0]];
 }
 
-- (void)removeMenuItemView:(UIView *)menuItemView interval:(double)delayInSeconds
+- (void)removeCustomView:(UIView *)customView interval:(double)delayInSeconds
 {
     self.userInteractionEnabled = NO;
     dispatch_time_t removeTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
     dispatch_after(removeTime, dispatch_get_main_queue(), ^(void){
-        [[menuItemView viewWithTag:kMenuItemViewTag] removeFromSuperview];
+        [[customView viewWithTag:kCustomViewTag] removeFromSuperview];
         self.userInteractionEnabled = YES;
      });
 }
