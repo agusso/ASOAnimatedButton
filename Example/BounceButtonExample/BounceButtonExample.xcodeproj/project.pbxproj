@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6B6BFBC18E4E51000DE8045 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B6BFBB18E4E51000DE8045 /* Foundation.framework */; };
+		A6B6BFBE18E4E51000DE8045 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B6BFBD18E4E51000DE8045 /* CoreGraphics.framework */; };
+		A6B6BFC018E4E51000DE8045 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B6BFBF18E4E51000DE8045 /* UIKit.framework */; };
+		A6B6BFC618E4E51000DE8045 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6B6BFC418E4E51000DE8045 /* InfoPlist.strings */; };
+		A6B6BFC818E4E51000DE8045 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B6BFC718E4E51000DE8045 /* main.m */; };
+		A6B6BFCC18E4E51000DE8045 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B6BFCB18E4E51000DE8045 /* AppDelegate.m */; };
+		A6B6BFCF18E4E51100DE8045 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B6BFCD18E4E51100DE8045 /* Main_iPhone.storyboard */; };
+		A6B6BFD218E4E51100DE8045 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B6BFD018E4E51100DE8045 /* Main_iPad.storyboard */; };
+		A6B6BFD518E4E51100DE8045 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B6BFD418E4E51100DE8045 /* FirstViewController.m */; };
+		A6B6BFD818E4E51200DE8045 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B6BFD718E4E51200DE8045 /* SecondViewController.m */; };
+		A6B6BFDA18E4E51300DE8045 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B6BFD918E4E51300DE8045 /* Images.xcassets */; };
+		A6B6BFE118E4E51400DE8045 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B6BFE018E4E51400DE8045 /* XCTest.framework */; };
+		A6B6BFE218E4E51400DE8045 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B6BFBB18E4E51000DE8045 /* Foundation.framework */; };
+		A6B6BFE318E4E51400DE8045 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B6BFBF18E4E51000DE8045 /* UIKit.framework */; };
+		A6B6BFEB18E4E51400DE8045 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6B6BFE918E4E51400DE8045 /* InfoPlist.strings */; };
+		A6B6BFED18E4E51400DE8045 /* BounceButtonExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B6BFEC18E4E51400DE8045 /* BounceButtonExampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6B6BFE418E4E51400DE8045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6B6BFB018E4E50F00DE8045 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6B6BFB718E4E50F00DE8045;
+			remoteInfo = BounceButtonExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6B6BFB818E4E51000DE8045 /* BounceButtonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BounceButtonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B6BFBB18E4E51000DE8045 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6B6BFBD18E4E51000DE8045 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6B6BFBF18E4E51000DE8045 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6B6BFC318E4E51000DE8045 /* BounceButtonExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BounceButtonExample-Info.plist"; sourceTree = "<group>"; };
+		A6B6BFC518E4E51000DE8045 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6B6BFC718E4E51000DE8045 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6B6BFC918E4E51000DE8045 /* BounceButtonExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BounceButtonExample-Prefix.pch"; sourceTree = "<group>"; };
+		A6B6BFCA18E4E51000DE8045 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6B6BFCB18E4E51000DE8045 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6B6BFCE18E4E51100DE8045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A6B6BFD118E4E51100DE8045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A6B6BFD318E4E51100DE8045 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A6B6BFD418E4E51100DE8045 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A6B6BFD618E4E51100DE8045 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A6B6BFD718E4E51200DE8045 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A6B6BFD918E4E51300DE8045 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A6B6BFDF18E4E51400DE8045 /* BounceButtonExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BounceButtonExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B6BFE018E4E51400DE8045 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A6B6BFE818E4E51400DE8045 /* BounceButtonExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BounceButtonExampleTests-Info.plist"; sourceTree = "<group>"; };
+		A6B6BFEA18E4E51400DE8045 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6B6BFEC18E4E51400DE8045 /* BounceButtonExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BounceButtonExampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6B6BFB518E4E50F00DE8045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B6BFBE18E4E51000DE8045 /* CoreGraphics.framework in Frameworks */,
+				A6B6BFC018E4E51000DE8045 /* UIKit.framework in Frameworks */,
+				A6B6BFBC18E4E51000DE8045 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B6BFDC18E4E51300DE8045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B6BFE118E4E51400DE8045 /* XCTest.framework in Frameworks */,
+				A6B6BFE318E4E51400DE8045 /* UIKit.framework in Frameworks */,
+				A6B6BFE218E4E51400DE8045 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6B6BFAF18E4E50E00DE8045 = {
+			isa = PBXGroup;
+			children = (
+				A6B6BFC118E4E51000DE8045 /* BounceButtonExample */,
+				A6B6BFE618E4E51400DE8045 /* BounceButtonExampleTests */,
+				A6B6BFBA18E4E51000DE8045 /* Frameworks */,
+				A6B6BFB918E4E51000DE8045 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6B6BFB918E4E51000DE8045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6B6BFB818E4E51000DE8045 /* BounceButtonExample.app */,
+				A6B6BFDF18E4E51400DE8045 /* BounceButtonExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6B6BFBA18E4E51000DE8045 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6B6BFBB18E4E51000DE8045 /* Foundation.framework */,
+				A6B6BFBD18E4E51000DE8045 /* CoreGraphics.framework */,
+				A6B6BFBF18E4E51000DE8045 /* UIKit.framework */,
+				A6B6BFE018E4E51400DE8045 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6B6BFC118E4E51000DE8045 /* BounceButtonExample */ = {
+			isa = PBXGroup;
+			children = (
+				A6B6BFCA18E4E51000DE8045 /* AppDelegate.h */,
+				A6B6BFCB18E4E51000DE8045 /* AppDelegate.m */,
+				A6B6BFCD18E4E51100DE8045 /* Main_iPhone.storyboard */,
+				A6B6BFD018E4E51100DE8045 /* Main_iPad.storyboard */,
+				A6B6BFD318E4E51100DE8045 /* FirstViewController.h */,
+				A6B6BFD418E4E51100DE8045 /* FirstViewController.m */,
+				A6B6BFD618E4E51100DE8045 /* SecondViewController.h */,
+				A6B6BFD718E4E51200DE8045 /* SecondViewController.m */,
+				A6B6BFD918E4E51300DE8045 /* Images.xcassets */,
+				A6B6BFC218E4E51000DE8045 /* Supporting Files */,
+			);
+			path = BounceButtonExample;
+			sourceTree = "<group>";
+		};
+		A6B6BFC218E4E51000DE8045 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6B6BFC318E4E51000DE8045 /* BounceButtonExample-Info.plist */,
+				A6B6BFC418E4E51000DE8045 /* InfoPlist.strings */,
+				A6B6BFC718E4E51000DE8045 /* main.m */,
+				A6B6BFC918E4E51000DE8045 /* BounceButtonExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6B6BFE618E4E51400DE8045 /* BounceButtonExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6B6BFEC18E4E51400DE8045 /* BounceButtonExampleTests.m */,
+				A6B6BFE718E4E51400DE8045 /* Supporting Files */,
+			);
+			path = BounceButtonExampleTests;
+			sourceTree = "<group>";
+		};
+		A6B6BFE718E4E51400DE8045 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6B6BFE818E4E51400DE8045 /* BounceButtonExampleTests-Info.plist */,
+				A6B6BFE918E4E51400DE8045 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6B6BFB718E4E50F00DE8045 /* BounceButtonExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B6BFF018E4E51400DE8045 /* Build configuration list for PBXNativeTarget "BounceButtonExample" */;
+			buildPhases = (
+				A6B6BFB418E4E50F00DE8045 /* Sources */,
+				A6B6BFB518E4E50F00DE8045 /* Frameworks */,
+				A6B6BFB618E4E50F00DE8045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BounceButtonExample;
+			productName = BounceButtonExample;
+			productReference = A6B6BFB818E4E51000DE8045 /* BounceButtonExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6B6BFDE18E4E51300DE8045 /* BounceButtonExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B6BFF318E4E51400DE8045 /* Build configuration list for PBXNativeTarget "BounceButtonExampleTests" */;
+			buildPhases = (
+				A6B6BFDB18E4E51300DE8045 /* Sources */,
+				A6B6BFDC18E4E51300DE8045 /* Frameworks */,
+				A6B6BFDD18E4E51300DE8045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6B6BFE518E4E51400DE8045 /* PBXTargetDependency */,
+			);
+			name = BounceButtonExampleTests;
+			productName = BounceButtonExampleTests;
+			productReference = A6B6BFDF18E4E51400DE8045 /* BounceButtonExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6B6BFB018E4E50F00DE8045 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Agus Soedibjo";
+				TargetAttributes = {
+					A6B6BFDE18E4E51300DE8045 = {
+						TestTargetID = A6B6BFB718E4E50F00DE8045;
+					};
+				};
+			};
+			buildConfigurationList = A6B6BFB318E4E50F00DE8045 /* Build configuration list for PBXProject "BounceButtonExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6B6BFAF18E4E50E00DE8045;
+			productRefGroup = A6B6BFB918E4E51000DE8045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6B6BFB718E4E50F00DE8045 /* BounceButtonExample */,
+				A6B6BFDE18E4E51300DE8045 /* BounceButtonExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6B6BFB618E4E50F00DE8045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B6BFD218E4E51100DE8045 /* Main_iPad.storyboard in Resources */,
+				A6B6BFDA18E4E51300DE8045 /* Images.xcassets in Resources */,
+				A6B6BFCF18E4E51100DE8045 /* Main_iPhone.storyboard in Resources */,
+				A6B6BFC618E4E51000DE8045 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B6BFDD18E4E51300DE8045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B6BFEB18E4E51400DE8045 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6B6BFB418E4E50F00DE8045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B6BFD818E4E51200DE8045 /* SecondViewController.m in Sources */,
+				A6B6BFCC18E4E51000DE8045 /* AppDelegate.m in Sources */,
+				A6B6BFD518E4E51100DE8045 /* FirstViewController.m in Sources */,
+				A6B6BFC818E4E51000DE8045 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B6BFDB18E4E51300DE8045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B6BFED18E4E51400DE8045 /* BounceButtonExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6B6BFE518E4E51400DE8045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6B6BFB718E4E50F00DE8045 /* BounceButtonExample */;
+			targetProxy = A6B6BFE418E4E51400DE8045 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6B6BFC418E4E51000DE8045 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B6BFC518E4E51000DE8045 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6B6BFCD18E4E51100DE8045 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B6BFCE18E4E51100DE8045 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A6B6BFD018E4E51100DE8045 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B6BFD118E4E51100DE8045 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A6B6BFE918E4E51400DE8045 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B6BFEA18E4E51400DE8045 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6B6BFEE18E4E51400DE8045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6B6BFEF18E4E51400DE8045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6B6BFF118E4E51400DE8045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BounceButtonExample/BounceButtonExample-Prefix.pch";
+				INFOPLIST_FILE = "BounceButtonExample/BounceButtonExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6B6BFF218E4E51400DE8045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BounceButtonExample/BounceButtonExample-Prefix.pch";
+				INFOPLIST_FILE = "BounceButtonExample/BounceButtonExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A6B6BFF418E4E51400DE8045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BounceButtonExample.app/BounceButtonExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BounceButtonExample/BounceButtonExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BounceButtonExampleTests/BounceButtonExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A6B6BFF518E4E51400DE8045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BounceButtonExample.app/BounceButtonExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BounceButtonExample/BounceButtonExample-Prefix.pch";
+				INFOPLIST_FILE = "BounceButtonExampleTests/BounceButtonExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6B6BFB318E4E50F00DE8045 /* Build configuration list for PBXProject "BounceButtonExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B6BFEE18E4E51400DE8045 /* Debug */,
+				A6B6BFEF18E4E51400DE8045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6B6BFF018E4E51400DE8045 /* Build configuration list for PBXNativeTarget "BounceButtonExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B6BFF118E4E51400DE8045 /* Debug */,
+				A6B6BFF218E4E51400DE8045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6B6BFF318E4E51400DE8045 /* Build configuration list for PBXNativeTarget "BounceButtonExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B6BFF418E4E51400DE8045 /* Debug */,
+				A6B6BFF518E4E51400DE8045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6B6BFB018E4E50F00DE8045 /* Project object */;
+}
