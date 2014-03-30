@@ -7,293 +7,293 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		294DB1DDC08B4486BCA1B5AF /* Pods-TwoStateButtonExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C65DF2577DC646BDBFFC547B /* Pods-TwoStateButtonExample-dummy.m */; };
-		2BB0DD62821744848700025B /* ASOTwoStateButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EA369249E564159A67EEF09 /* ASOTwoStateButton.h */; };
-		2C334831DE424380BA230BA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E78E1758F04C218BBE954B /* Foundation.framework */; };
-		2C9F99D458C24734A217ACFA /* ASOBounceButtonViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EA688E98B2414E6B8C05B25C /* ASOBounceButtonViewDelegate.h */; };
-		31D7A1E7FDFA440F8EBA8085 /* ASOBounceButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6ACDE129F0148EA9B32502D /* ASOBounceButtonView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		509FE3E0A2354C7EAAE69398 /* ASOBounceButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC93F23743F745ED9D89A5F7 /* ASOBounceButtonView.h */; };
-		666E44322914498FA3C0A0D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E78E1758F04C218BBE954B /* Foundation.framework */; };
-		679424AB591E49B58AC9D2B7 /* ASOBounceButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6ACDE129F0148EA9B32502D /* ASOBounceButtonView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		7134FD7864474CEC82A1EB2C /* ASOTwoStateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C8CA479AC746C58A26019C /* ASOTwoStateButton.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		73F1A1D53DB24E0A8A04A8D0 /* libPods-ASOAnimatedButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B294C56E7E4D5E8E58F297 /* libPods-ASOAnimatedButton.a */; };
-		78BAE82197F44E41831D5336 /* libPods-TwoStateButtonExample-ASOAnimatedButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7835BA20B450464AAC50FC8E /* libPods-TwoStateButtonExample-ASOAnimatedButton.a */; };
-		8DA3041E0BE444168A154471 /* ASOTwoStateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C8CA479AC746C58A26019C /* ASOTwoStateButton.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		9DD541ABA6BB4EBA860B5156 /* Pods-ASOAnimatedButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB5BFD3E2B463F8262A246 /* Pods-ASOAnimatedButton-dummy.m */; };
-		A8719B478E6D45D2B086AC5C /* ASOBounceButtonViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EA688E98B2414E6B8C05B25C /* ASOBounceButtonViewDelegate.h */; };
-		C5E664ADFD0E414785FF3E58 /* ASOBounceButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC93F23743F745ED9D89A5F7 /* ASOBounceButtonView.h */; };
-		D40E05D87EB34A83A2BB7275 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E78E1758F04C218BBE954B /* Foundation.framework */; };
-		D59A65D135A641C8B7E4A4C5 /* Pods-TwoStateButtonExample-ASOAnimatedButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFE6C5CF84349C787BDB30E /* Pods-TwoStateButtonExample-ASOAnimatedButton-dummy.m */; };
-		DB1C5250EA384D4EA43590C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E78E1758F04C218BBE954B /* Foundation.framework */; };
-		DEB15414839949C2AB60149A /* ASOTwoStateButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EA369249E564159A67EEF09 /* ASOTwoStateButton.h */; };
-		F5B9EB7376D34DD589958E10 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BB7173BD66470B9FB497EF /* Pods-dummy.m */; };
+		0C1240D4413048EA84B2E8AD /* ASOBounceButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = DED27E8AB0DD48DDA41A5E63 /* ASOBounceButtonView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		10D912D335774373AB1254F6 /* ASOTwoStateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 012BBA63C1FC40FFB571AD23 /* ASOTwoStateButton.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		183A751F00BE4D99B7694A9E /* libPods-TwoStateButtonExample-ASOAnimatedButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 821B966C1F29442FBA70F508 /* libPods-TwoStateButtonExample-ASOAnimatedButton.a */; };
+		253F7771EE674372A57FA7CF /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D684B2B4C4774A168D880F2A /* Pods-dummy.m */; };
+		3A5151C2854643C58968361E /* libPods-ASOAnimatedButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9419FAEFF77B4DE28D697BE3 /* libPods-ASOAnimatedButton.a */; };
+		53117435CE134D708D090BE9 /* ASOBounceButtonViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E59FDD479D9B4BCE8209A502 /* ASOBounceButtonViewDelegate.h */; };
+		58ECDDD1836F44C1A4441CA3 /* ASOBounceButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 57767A2610A24280B4743989 /* ASOBounceButtonView.h */; };
+		6E6B70EBD9F24B35B5231290 /* ASOTwoStateButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 92AF7E8A40904481A146690E /* ASOTwoStateButton.h */; };
+		6F37D79DEE3E4F66BA2EEFE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42508CD11FBD4AE0B39DE3A4 /* Foundation.framework */; };
+		784133DE2AE5437399B6C629 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42508CD11FBD4AE0B39DE3A4 /* Foundation.framework */; };
+		847F0F62E6BA4715859919F2 /* ASOBounceButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 57767A2610A24280B4743989 /* ASOBounceButtonView.h */; };
+		8556DF7FA6A64C9A84E2E6AC /* Pods-TwoStateButtonExample-ASOAnimatedButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 064CAA6C97AB40D089B9C14E /* Pods-TwoStateButtonExample-ASOAnimatedButton-dummy.m */; };
+		9A0D54C174BD47168ECD689C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42508CD11FBD4AE0B39DE3A4 /* Foundation.framework */; };
+		9D872614D9144B9498949485 /* Pods-ASOAnimatedButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EB57AD52C4A6E96A5DDCE /* Pods-ASOAnimatedButton-dummy.m */; };
+		BD45733FF7FE47458CCB5C87 /* ASOTwoStateButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 92AF7E8A40904481A146690E /* ASOTwoStateButton.h */; };
+		D5672196245846A69C2CBE2D /* ASOBounceButtonViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E59FDD479D9B4BCE8209A502 /* ASOBounceButtonViewDelegate.h */; };
+		D75DB82DEFD54EE09531D7EE /* Pods-TwoStateButtonExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A046F6C78294A29B67678E8 /* Pods-TwoStateButtonExample-dummy.m */; };
+		E0CFF6134E0C495CBFBE1AF7 /* ASOBounceButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = DED27E8AB0DD48DDA41A5E63 /* ASOBounceButtonView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		FD7B3EA4D8764076A8BB9D0D /* ASOTwoStateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 012BBA63C1FC40FFB571AD23 /* ASOTwoStateButton.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		FFC786AFCBC94E8382F37167 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42508CD11FBD4AE0B39DE3A4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6C747DE683C443AB9234C62E /* PBXContainerItemProxy */ = {
+		4F411E6278EE4FF49A880AC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6B72753485C3443BA7FD80A0 /* Project object */;
+			containerPortal = 14DF4F04F6994714B6D2FA72 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD5C50D928EA4B71A0D2958B;
+			remoteGlobalIDString = 779EBA6D61CF4BDA89EEC32F;
 			remoteInfo = "Pods-ASOAnimatedButton";
 		};
-		F6BA012D16CB43EE8BDDE766 /* PBXContainerItemProxy */ = {
+		F9D5A46F48BC4D978A376B57 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6B72753485C3443BA7FD80A0 /* Project object */;
+			containerPortal = 14DF4F04F6994714B6D2FA72 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3C7E7B5F84654C18B0712AFC;
+			remoteGlobalIDString = 1F00F8BE98FD4F2A8AC0E40A;
 			remoteInfo = "Pods-TwoStateButtonExample-ASOAnimatedButton";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02BF93B41B4C4E068738D235 /* Pods-TwoStateButtonExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwoStateButtonExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0EA369249E564159A67EEF09 /* ASOTwoStateButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASOTwoStateButton.h; path = Classes/ios/TwoStateButton/ASOTwoStateButton.h; sourceTree = "<group>"; };
-		0EFE6C5CF84349C787BDB30E /* Pods-TwoStateButtonExample-ASOAnimatedButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwoStateButtonExample-ASOAnimatedButton-dummy.m"; sourceTree = "<group>"; };
-		2D1D418AFB46420C85516563 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		3D9AFF7238144128B7305016 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EAB5BFD3E2B463F8262A246 /* Pods-ASOAnimatedButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASOAnimatedButton-dummy.m"; sourceTree = "<group>"; };
-		45BB7173BD66470B9FB497EF /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		46E16D76B5904989BDF3DE97 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		51E78E1758F04C218BBE954B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5C62839EE02B4CB8A2229895 /* Pods-TwoStateButtonExample-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwoStateButtonExample-environment.h"; sourceTree = "<group>"; };
-		5F553C8276B14A8B8AED9EAF /* Pods-TwoStateButtonExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwoStateButtonExample-resources.sh"; sourceTree = "<group>"; };
-		75905AC84945493DB0890AB8 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		7835BA20B450464AAC50FC8E /* libPods-TwoStateButtonExample-ASOAnimatedButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TwoStateButtonExample-ASOAnimatedButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E473E960F3B40EEB9543C3B /* Pods-TwoStateButtonExample-ASOAnimatedButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwoStateButtonExample-ASOAnimatedButton-Private.xcconfig"; sourceTree = "<group>"; };
-		85E0D42FC57F4B2391AF492E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8E7BE74BB7E04B049000FCBB /* Pods-TwoStateButtonExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwoStateButtonExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		94C8CA479AC746C58A26019C /* ASOTwoStateButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASOTwoStateButton.m; path = Classes/ios/TwoStateButton/ASOTwoStateButton.m; sourceTree = "<group>"; };
-		99621C709F2F4C6CA908B365 /* Pods-TwoStateButtonExample.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwoStateButtonExample.xcconfig"; sourceTree = "<group>"; };
-		9B9385D3BA6348ADBEB54A0E /* Pods-TwoStateButtonExample-ASOAnimatedButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwoStateButtonExample-ASOAnimatedButton-prefix.pch"; sourceTree = "<group>"; };
-		B0B294C56E7E4D5E8E58F297 /* libPods-ASOAnimatedButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASOAnimatedButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD002A9FF8A0490C9910C71B /* Pods-ASOAnimatedButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASOAnimatedButton-Private.xcconfig"; sourceTree = "<group>"; };
-		C65DF2577DC646BDBFFC547B /* Pods-TwoStateButtonExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwoStateButtonExample-dummy.m"; sourceTree = "<group>"; };
-		D6ACDE129F0148EA9B32502D /* ASOBounceButtonView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASOBounceButtonView.m; path = Classes/ios/BounceButton/ASOBounceButtonView.m; sourceTree = "<group>"; };
-		DC93F23743F745ED9D89A5F7 /* ASOBounceButtonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASOBounceButtonView.h; path = Classes/ios/BounceButton/ASOBounceButtonView.h; sourceTree = "<group>"; };
-		E1D441F7482742D6B3F8C088 /* Pods-ASOAnimatedButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASOAnimatedButton.xcconfig"; sourceTree = "<group>"; };
-		E1DA33709D5D4E8AA709AE46 /* Pods-ASOAnimatedButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASOAnimatedButton-prefix.pch"; sourceTree = "<group>"; };
-		E462C8BE1D394DEABB941FB0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = "<group>"; };
-		E56522A2B0E94469A51D732A /* libPods-TwoStateButtonExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TwoStateButtonExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7DBB7234C744360A8E628F5 /* Pods-TwoStateButtonExample-ASOAnimatedButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwoStateButtonExample-ASOAnimatedButton.xcconfig"; sourceTree = "<group>"; };
-		EA688E98B2414E6B8C05B25C /* ASOBounceButtonViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASOBounceButtonViewDelegate.h; path = Classes/ios/BounceButton/ASOBounceButtonViewDelegate.h; sourceTree = "<group>"; };
-		F503B1992E98494C8D3EC6E4 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		012BBA63C1FC40FFB571AD23 /* ASOTwoStateButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASOTwoStateButton.m; path = Classes/ios/TwoStateButton/ASOTwoStateButton.m; sourceTree = "<group>"; };
+		01AF9112636444A6B4842F2B /* Pods-TwoStateButtonExample-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwoStateButtonExample-environment.h"; sourceTree = "<group>"; };
+		064CAA6C97AB40D089B9C14E /* Pods-TwoStateButtonExample-ASOAnimatedButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwoStateButtonExample-ASOAnimatedButton-dummy.m"; sourceTree = "<group>"; };
+		0BAEADB55BF24DE9A83EE670 /* Pods-ASOAnimatedButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASOAnimatedButton-prefix.pch"; sourceTree = "<group>"; };
+		1C1D8E7E355A4700B2E7FEEE /* Pods-TwoStateButtonExample-ASOAnimatedButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwoStateButtonExample-ASOAnimatedButton-prefix.pch"; sourceTree = "<group>"; };
+		1CC48E4CD39C45C89F4265DD /* Pods-TwoStateButtonExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwoStateButtonExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FAF58ACECFD41FA88C204A8 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		3589D81080BC4C1EA4377C64 /* Pods-ASOAnimatedButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASOAnimatedButton.xcconfig"; sourceTree = "<group>"; };
+		42508CD11FBD4AE0B39DE3A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4A2EB57AD52C4A6E96A5DDCE /* Pods-ASOAnimatedButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASOAnimatedButton-dummy.m"; sourceTree = "<group>"; };
+		57767A2610A24280B4743989 /* ASOBounceButtonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASOBounceButtonView.h; path = Classes/ios/BounceButton/ASOBounceButtonView.h; sourceTree = "<group>"; };
+		585768987C164A77A8E56E05 /* Pods-TwoStateButtonExample-ASOAnimatedButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwoStateButtonExample-ASOAnimatedButton-Private.xcconfig"; sourceTree = "<group>"; };
+		5890AB177E5C4E7BA90F25AD /* libPods-TwoStateButtonExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TwoStateButtonExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F63F2E4D2CA4C239EA288AF /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5FF6F67C00F74601B80BE27B /* Pods-TwoStateButtonExample-ASOAnimatedButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwoStateButtonExample-ASOAnimatedButton.xcconfig"; sourceTree = "<group>"; };
+		76D8E4DE364B427B93F10F5A /* Pods-ASOAnimatedButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASOAnimatedButton-Private.xcconfig"; sourceTree = "<group>"; };
+		821B966C1F29442FBA70F508 /* libPods-TwoStateButtonExample-ASOAnimatedButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TwoStateButtonExample-ASOAnimatedButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		859A684EC24A469FA5257E62 /* Pods-TwoStateButtonExample.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwoStateButtonExample.xcconfig"; sourceTree = "<group>"; };
+		92AF7E8A40904481A146690E /* ASOTwoStateButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASOTwoStateButton.h; path = Classes/ios/TwoStateButton/ASOTwoStateButton.h; sourceTree = "<group>"; };
+		9419FAEFF77B4DE28D697BE3 /* libPods-ASOAnimatedButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASOAnimatedButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FF5161B0404FF982A90CD1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A046F6C78294A29B67678E8 /* Pods-TwoStateButtonExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwoStateButtonExample-dummy.m"; sourceTree = "<group>"; };
+		AEA49861387149CBBF0487B7 /* Pods-TwoStateButtonExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwoStateButtonExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C8E02CB9E87C4DD0996A072D /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		D5CDA335C58D4831B937C4DB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = "<group>"; };
+		D684B2B4C4774A168D880F2A /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		DBE566D62F324831ADC709D4 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DED27E8AB0DD48DDA41A5E63 /* ASOBounceButtonView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASOBounceButtonView.m; path = Classes/ios/BounceButton/ASOBounceButtonView.m; sourceTree = "<group>"; };
+		E0D74262351141CE8F1E85F2 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		E59FDD479D9B4BCE8209A502 /* ASOBounceButtonViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASOBounceButtonViewDelegate.h; path = Classes/ios/BounceButton/ASOBounceButtonViewDelegate.h; sourceTree = "<group>"; };
+		F3594943282A4F3AA6D7A04F /* Pods-TwoStateButtonExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwoStateButtonExample-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0956D407DB614CF18EE67E17 /* Frameworks */ = {
+		25E34FA238624FFDA1B33A0E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				666E44322914498FA3C0A0D6 /* Foundation.framework in Frameworks */,
-				73F1A1D53DB24E0A8A04A8D0 /* libPods-ASOAnimatedButton.a in Frameworks */,
+				784133DE2AE5437399B6C629 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		25C5F581BF164FE59336486E /* Frameworks */ = {
+		42F52B9934994622A21DABCF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C334831DE424380BA230BA5 /* Foundation.framework in Frameworks */,
+				FFC786AFCBC94E8382F37167 /* Foundation.framework in Frameworks */,
+				183A751F00BE4D99B7694A9E /* libPods-TwoStateButtonExample-ASOAnimatedButton.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98882833B1024F739BE7F4EC /* Frameworks */ = {
+		ABA35BB02D2D4B5BBA7E280A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D40E05D87EB34A83A2BB7275 /* Foundation.framework in Frameworks */,
-				78BAE82197F44E41831D5336 /* libPods-TwoStateButtonExample-ASOAnimatedButton.a in Frameworks */,
+				6F37D79DEE3E4F66BA2EEFE0 /* Foundation.framework in Frameworks */,
+				3A5151C2854643C58968361E /* libPods-ASOAnimatedButton.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA12556942714258BA63A0F6 /* Frameworks */ = {
+		E260EC84943F4F838F503130 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB1C5250EA384D4EA43590C7 /* Foundation.framework in Frameworks */,
+				9A0D54C174BD47168ECD689C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1847BD4CC3884B92B94149B2 /* Targets Support Files */ = {
+		0692CADBD676411D81EF1C38 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				75E2CA078BC04534B5D49476 /* Pods */,
-				FC5480DADD2C41978F04FF51 /* Pods-TwoStateButtonExample */,
+				CDD3CCCF16564B5F9B5B6D77 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		533E8CA4A02E43848B815326 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0071E120B0D4C4FB1D37C07 /* Pods */,
+				82F5B0F6B2B949C3861E063F /* Pods-TwoStateButtonExample */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1F33F09A3A174D62A2BAED40 /* iOS */ = {
+		6CF1A1AF96254C1682CF4594 /* ASOAnimatedButton */ = {
 			isa = PBXGroup;
 			children = (
-				51E78E1758F04C218BBE954B /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		488014BA5077459A91D17A5C /* ASOAnimatedButton */ = {
-			isa = PBXGroup;
-			children = (
-				DC93F23743F745ED9D89A5F7 /* ASOBounceButtonView.h */,
-				D6ACDE129F0148EA9B32502D /* ASOBounceButtonView.m */,
-				EA688E98B2414E6B8C05B25C /* ASOBounceButtonViewDelegate.h */,
-				0EA369249E564159A67EEF09 /* ASOTwoStateButton.h */,
-				94C8CA479AC746C58A26019C /* ASOTwoStateButton.m */,
-				B8B28D09C8834660A1166BBC /* BounceButton */,
-				6DF3849D89464A4FB57454B5 /* Support Files */,
-				6C934731F1E74FD19E43CB29 /* TwoStateButton */,
+				57767A2610A24280B4743989 /* ASOBounceButtonView.h */,
+				DED27E8AB0DD48DDA41A5E63 /* ASOBounceButtonView.m */,
+				E59FDD479D9B4BCE8209A502 /* ASOBounceButtonViewDelegate.h */,
+				92AF7E8A40904481A146690E /* ASOTwoStateButton.h */,
+				012BBA63C1FC40FFB571AD23 /* ASOTwoStateButton.m */,
+				9E6D70ABAD784CDA98F9BB21 /* BounceButton */,
+				8076B5F30AB94FFBADFA1D25 /* Support Files */,
+				9488D366D48243F5B476A574 /* TwoStateButton */,
 			);
 			name = ASOAnimatedButton;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		6C934731F1E74FD19E43CB29 /* TwoStateButton */ = {
+		8076B5F30AB94FFBADFA1D25 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3589D81080BC4C1EA4377C64 /* Pods-ASOAnimatedButton.xcconfig */,
+				76D8E4DE364B427B93F10F5A /* Pods-ASOAnimatedButton-Private.xcconfig */,
+				4A2EB57AD52C4A6E96A5DDCE /* Pods-ASOAnimatedButton-dummy.m */,
+				0BAEADB55BF24DE9A83EE670 /* Pods-ASOAnimatedButton-prefix.pch */,
+				5FF6F67C00F74601B80BE27B /* Pods-TwoStateButtonExample-ASOAnimatedButton.xcconfig */,
+				585768987C164A77A8E56E05 /* Pods-TwoStateButtonExample-ASOAnimatedButton-Private.xcconfig */,
+				064CAA6C97AB40D089B9C14E /* Pods-TwoStateButtonExample-ASOAnimatedButton-dummy.m */,
+				1C1D8E7E355A4700B2E7FEEE /* Pods-TwoStateButtonExample-ASOAnimatedButton-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		82F5B0F6B2B949C3861E063F /* Pods-TwoStateButtonExample */ = {
+			isa = PBXGroup;
+			children = (
+				859A684EC24A469FA5257E62 /* Pods-TwoStateButtonExample.xcconfig */,
+				AEA49861387149CBBF0487B7 /* Pods-TwoStateButtonExample-acknowledgements.markdown */,
+				1CC48E4CD39C45C89F4265DD /* Pods-TwoStateButtonExample-acknowledgements.plist */,
+				9A046F6C78294A29B67678E8 /* Pods-TwoStateButtonExample-dummy.m */,
+				01AF9112636444A6B4842F2B /* Pods-TwoStateButtonExample-environment.h */,
+				F3594943282A4F3AA6D7A04F /* Pods-TwoStateButtonExample-resources.sh */,
+			);
+			name = "Pods-TwoStateButtonExample";
+			sourceTree = "<group>";
+		};
+		8BA71C53E1F948F6A5EC590D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94FF5161B0404FF982A90CD1 /* libPods.a */,
+				9419FAEFF77B4DE28D697BE3 /* libPods-ASOAnimatedButton.a */,
+				5890AB177E5C4E7BA90F25AD /* libPods-TwoStateButtonExample.a */,
+				821B966C1F29442FBA70F508 /* libPods-TwoStateButtonExample-ASOAnimatedButton.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9488D366D48243F5B476A574 /* TwoStateButton */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = TwoStateButton;
 			sourceTree = "<group>";
 		};
-		6DF3849D89464A4FB57454B5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E1D441F7482742D6B3F8C088 /* Pods-ASOAnimatedButton.xcconfig */,
-				BD002A9FF8A0490C9910C71B /* Pods-ASOAnimatedButton-Private.xcconfig */,
-				3EAB5BFD3E2B463F8262A246 /* Pods-ASOAnimatedButton-dummy.m */,
-				E1DA33709D5D4E8AA709AE46 /* Pods-ASOAnimatedButton-prefix.pch */,
-				E7DBB7234C744360A8E628F5 /* Pods-TwoStateButtonExample-ASOAnimatedButton.xcconfig */,
-				7E473E960F3B40EEB9543C3B /* Pods-TwoStateButtonExample-ASOAnimatedButton-Private.xcconfig */,
-				0EFE6C5CF84349C787BDB30E /* Pods-TwoStateButtonExample-ASOAnimatedButton-dummy.m */,
-				9B9385D3BA6348ADBEB54A0E /* Pods-TwoStateButtonExample-ASOAnimatedButton-prefix.pch */,
-			);
-			name = "Support Files";
-			sourceTree = SOURCE_ROOT;
-		};
-		75E2CA078BC04534B5D49476 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E462C8BE1D394DEABB941FB0 /* Pods.xcconfig */,
-				85E0D42FC57F4B2391AF492E /* Pods-acknowledgements.markdown */,
-				75905AC84945493DB0890AB8 /* Pods-acknowledgements.plist */,
-				45BB7173BD66470B9FB497EF /* Pods-dummy.m */,
-				F503B1992E98494C8D3EC6E4 /* Pods-environment.h */,
-				2D1D418AFB46420C85516563 /* Pods-resources.sh */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B5C5780FBB5D42C6896B2D92 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3D9AFF7238144128B7305016 /* libPods.a */,
-				B0B294C56E7E4D5E8E58F297 /* libPods-ASOAnimatedButton.a */,
-				E56522A2B0E94469A51D732A /* libPods-TwoStateButtonExample.a */,
-				7835BA20B450464AAC50FC8E /* libPods-TwoStateButtonExample-ASOAnimatedButton.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B616B1D4C5F841819497CACC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1F33F09A3A174D62A2BAED40 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B8B28D09C8834660A1166BBC /* BounceButton */ = {
+		9E6D70ABAD784CDA98F9BB21 /* BounceButton */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = BounceButton;
 			sourceTree = "<group>";
 		};
-		DE3CC8E3F7364D7E9EBFBCAC = {
+		C5AC9AD534944DBD9078A56D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				46E16D76B5904989BDF3DE97 /* Podfile */,
-				FBC7F97CFD7B496094AD66A0 /* Development Pods */,
-				B616B1D4C5F841819497CACC /* Frameworks */,
-				B5C5780FBB5D42C6896B2D92 /* Products */,
-				1847BD4CC3884B92B94149B2 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		FBC7F97CFD7B496094AD66A0 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				488014BA5077459A91D17A5C /* ASOAnimatedButton */,
+				6CF1A1AF96254C1682CF4594 /* ASOAnimatedButton */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		FC5480DADD2C41978F04FF51 /* Pods-TwoStateButtonExample */ = {
+		CDD3CCCF16564B5F9B5B6D77 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				99621C709F2F4C6CA908B365 /* Pods-TwoStateButtonExample.xcconfig */,
-				02BF93B41B4C4E068738D235 /* Pods-TwoStateButtonExample-acknowledgements.markdown */,
-				8E7BE74BB7E04B049000FCBB /* Pods-TwoStateButtonExample-acknowledgements.plist */,
-				C65DF2577DC646BDBFFC547B /* Pods-TwoStateButtonExample-dummy.m */,
-				5C62839EE02B4CB8A2229895 /* Pods-TwoStateButtonExample-environment.h */,
-				5F553C8276B14A8B8AED9EAF /* Pods-TwoStateButtonExample-resources.sh */,
+				42508CD11FBD4AE0B39DE3A4 /* Foundation.framework */,
 			);
-			name = "Pods-TwoStateButtonExample";
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D0071E120B0D4C4FB1D37C07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5CDA335C58D4831B937C4DB /* Pods.xcconfig */,
+				5F63F2E4D2CA4C239EA288AF /* Pods-acknowledgements.markdown */,
+				1FAF58ACECFD41FA88C204A8 /* Pods-acknowledgements.plist */,
+				D684B2B4C4774A168D880F2A /* Pods-dummy.m */,
+				E0D74262351141CE8F1E85F2 /* Pods-environment.h */,
+				C8E02CB9E87C4DD0996A072D /* Pods-resources.sh */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E0878DE361C2493F982856EE = {
+			isa = PBXGroup;
+			children = (
+				DBE566D62F324831ADC709D4 /* Podfile */,
+				C5AC9AD534944DBD9078A56D /* Development Pods */,
+				0692CADBD676411D81EF1C38 /* Frameworks */,
+				8BA71C53E1F948F6A5EC590D /* Products */,
+				533E8CA4A02E43848B815326 /* Targets Support Files */,
+			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		59A6710F5F3A4C169205D6EB /* Headers */ = {
+		557D547829934B518D2CA1BF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				509FE3E0A2354C7EAAE69398 /* ASOBounceButtonView.h in Headers */,
-				2C9F99D458C24734A217ACFA /* ASOBounceButtonViewDelegate.h in Headers */,
-				2BB0DD62821744848700025B /* ASOTwoStateButton.h in Headers */,
+				58ECDDD1836F44C1A4441CA3 /* ASOBounceButtonView.h in Headers */,
+				D5672196245846A69C2CBE2D /* ASOBounceButtonViewDelegate.h in Headers */,
+				BD45733FF7FE47458CCB5C87 /* ASOTwoStateButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3EA8ACB4711487DB347A7D6 /* Headers */ = {
+		679981EA8481429884F4811F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5E664ADFD0E414785FF3E58 /* ASOBounceButtonView.h in Headers */,
-				A8719B478E6D45D2B086AC5C /* ASOBounceButtonViewDelegate.h in Headers */,
-				DEB15414839949C2AB60149A /* ASOTwoStateButton.h in Headers */,
+				847F0F62E6BA4715859919F2 /* ASOBounceButtonView.h in Headers */,
+				53117435CE134D708D090BE9 /* ASOBounceButtonViewDelegate.h in Headers */,
+				6E6B70EBD9F24B35B5231290 /* ASOTwoStateButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1F120EB22F1A43E399596DB8 /* Pods */ = {
+		153561AAD0154217BB4C650E /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4602E9DFC1FE42A58BAFC75A /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = A767D8874671414B87C75ABA /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				555EACA87D324AB69969FABD /* Sources */,
-				0956D407DB614CF18EE67E17 /* Frameworks */,
+				6CBEA5C5F1BD4A92A5D8F47A /* Sources */,
+				ABA35BB02D2D4B5BBA7E280A /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ECC672E342B643C383BFAFFD /* PBXTargetDependency */,
+				ABFCAB0F2CF5439A99A134E9 /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = 3D9AFF7238144128B7305016 /* libPods.a */;
+			productReference = 94FF5161B0404FF982A90CD1 /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		3C7E7B5F84654C18B0712AFC /* Pods-TwoStateButtonExample-ASOAnimatedButton */ = {
+		1F00F8BE98FD4F2A8AC0E40A /* Pods-TwoStateButtonExample-ASOAnimatedButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F514EB59B98644E794B8A66E /* Build configuration list for PBXNativeTarget "Pods-TwoStateButtonExample-ASOAnimatedButton" */;
+			buildConfigurationList = 1F079CBA0069455FB47DE075 /* Build configuration list for PBXNativeTarget "Pods-TwoStateButtonExample-ASOAnimatedButton" */;
 			buildPhases = (
-				C1CCD8CA478B42E29A8A6610 /* Sources */,
-				FA12556942714258BA63A0F6 /* Frameworks */,
-				59A6710F5F3A4C169205D6EB /* Headers */,
+				47C63D901A9D4D7285F6960D /* Sources */,
+				25E34FA238624FFDA1B33A0E /* Frameworks */,
+				679981EA8481429884F4811F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -301,33 +301,16 @@
 			);
 			name = "Pods-TwoStateButtonExample-ASOAnimatedButton";
 			productName = "Pods-TwoStateButtonExample-ASOAnimatedButton";
-			productReference = 7835BA20B450464AAC50FC8E /* libPods-TwoStateButtonExample-ASOAnimatedButton.a */;
+			productReference = 821B966C1F29442FBA70F508 /* libPods-TwoStateButtonExample-ASOAnimatedButton.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		3E46487A22B14F78BAFDB104 /* Pods-TwoStateButtonExample */ = {
+		779EBA6D61CF4BDA89EEC32F /* Pods-ASOAnimatedButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1A4CE51281D49EAB207DACD /* Build configuration list for PBXNativeTarget "Pods-TwoStateButtonExample" */;
+			buildConfigurationList = 0E7C0A5C0FDD49E199FDDA1C /* Build configuration list for PBXNativeTarget "Pods-ASOAnimatedButton" */;
 			buildPhases = (
-				E50283FA0F814391901873FD /* Sources */,
-				98882833B1024F739BE7F4EC /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				54018B3AEA0242488AB3A526 /* PBXTargetDependency */,
-			);
-			name = "Pods-TwoStateButtonExample";
-			productName = "Pods-TwoStateButtonExample";
-			productReference = E56522A2B0E94469A51D732A /* libPods-TwoStateButtonExample.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		CD5C50D928EA4B71A0D2958B /* Pods-ASOAnimatedButton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A8F3217BE5DD4145B4FEBF5E /* Build configuration list for PBXNativeTarget "Pods-ASOAnimatedButton" */;
-			buildPhases = (
-				564CF207801C455582A40635 /* Sources */,
-				25C5F581BF164FE59336486E /* Frameworks */,
-				A3EA8ACB4711487DB347A7D6 /* Headers */,
+				DADDF2D718D44FC1BF35D435 /* Sources */,
+				E260EC84943F4F838F503130 /* Frameworks */,
+				557D547829934B518D2CA1BF /* Headers */,
 			);
 			buildRules = (
 			);
@@ -335,180 +318,110 @@
 			);
 			name = "Pods-ASOAnimatedButton";
 			productName = "Pods-ASOAnimatedButton";
-			productReference = B0B294C56E7E4D5E8E58F297 /* libPods-ASOAnimatedButton.a */;
+			productReference = 9419FAEFF77B4DE28D697BE3 /* libPods-ASOAnimatedButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7A2302DFB51C4A4F81E98CB0 /* Pods-TwoStateButtonExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38C789CA991414BB48B5E3A /* Build configuration list for PBXNativeTarget "Pods-TwoStateButtonExample" */;
+			buildPhases = (
+				9E4EF61B4704475EB233AFB5 /* Sources */,
+				42F52B9934994622A21DABCF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6EC80C58B664328A38D3F90 /* PBXTargetDependency */,
+			);
+			name = "Pods-TwoStateButtonExample";
+			productName = "Pods-TwoStateButtonExample";
+			productReference = 5890AB177E5C4E7BA90F25AD /* libPods-TwoStateButtonExample.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6B72753485C3443BA7FD80A0 /* Project object */ = {
+		14DF4F04F6994714B6D2FA72 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = EA550929484C416CBBAAC167 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 573F48584E7345E29B3328A4 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = DE3CC8E3F7364D7E9EBFBCAC;
-			productRefGroup = B5C5780FBB5D42C6896B2D92 /* Products */;
+			mainGroup = E0878DE361C2493F982856EE;
+			productRefGroup = 8BA71C53E1F948F6A5EC590D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F120EB22F1A43E399596DB8 /* Pods */,
-				CD5C50D928EA4B71A0D2958B /* Pods-ASOAnimatedButton */,
-				3E46487A22B14F78BAFDB104 /* Pods-TwoStateButtonExample */,
-				3C7E7B5F84654C18B0712AFC /* Pods-TwoStateButtonExample-ASOAnimatedButton */,
+				153561AAD0154217BB4C650E /* Pods */,
+				779EBA6D61CF4BDA89EEC32F /* Pods-ASOAnimatedButton */,
+				7A2302DFB51C4A4F81E98CB0 /* Pods-TwoStateButtonExample */,
+				1F00F8BE98FD4F2A8AC0E40A /* Pods-TwoStateButtonExample-ASOAnimatedButton */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		555EACA87D324AB69969FABD /* Sources */ = {
+		47C63D901A9D4D7285F6960D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5B9EB7376D34DD589958E10 /* Pods-dummy.m in Sources */,
+				0C1240D4413048EA84B2E8AD /* ASOBounceButtonView.m in Sources */,
+				10D912D335774373AB1254F6 /* ASOTwoStateButton.m in Sources */,
+				8556DF7FA6A64C9A84E2E6AC /* Pods-TwoStateButtonExample-ASOAnimatedButton-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		564CF207801C455582A40635 /* Sources */ = {
+		6CBEA5C5F1BD4A92A5D8F47A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				679424AB591E49B58AC9D2B7 /* ASOBounceButtonView.m in Sources */,
-				7134FD7864474CEC82A1EB2C /* ASOTwoStateButton.m in Sources */,
-				9DD541ABA6BB4EBA860B5156 /* Pods-ASOAnimatedButton-dummy.m in Sources */,
+				253F7771EE674372A57FA7CF /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1CCD8CA478B42E29A8A6610 /* Sources */ = {
+		9E4EF61B4704475EB233AFB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31D7A1E7FDFA440F8EBA8085 /* ASOBounceButtonView.m in Sources */,
-				8DA3041E0BE444168A154471 /* ASOTwoStateButton.m in Sources */,
-				D59A65D135A641C8B7E4A4C5 /* Pods-TwoStateButtonExample-ASOAnimatedButton-dummy.m in Sources */,
+				D75DB82DEFD54EE09531D7EE /* Pods-TwoStateButtonExample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E50283FA0F814391901873FD /* Sources */ = {
+		DADDF2D718D44FC1BF35D435 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				294DB1DDC08B4486BCA1B5AF /* Pods-TwoStateButtonExample-dummy.m in Sources */,
+				E0CFF6134E0C495CBFBE1AF7 /* ASOBounceButtonView.m in Sources */,
+				FD7B3EA4D8764076A8BB9D0D /* ASOTwoStateButton.m in Sources */,
+				9D872614D9144B9498949485 /* Pods-ASOAnimatedButton-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		54018B3AEA0242488AB3A526 /* PBXTargetDependency */ = {
+		ABFCAB0F2CF5439A99A134E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3C7E7B5F84654C18B0712AFC /* Pods-TwoStateButtonExample-ASOAnimatedButton */;
-			targetProxy = F6BA012D16CB43EE8BDDE766 /* PBXContainerItemProxy */;
+			target = 779EBA6D61CF4BDA89EEC32F /* Pods-ASOAnimatedButton */;
+			targetProxy = 4F411E6278EE4FF49A880AC6 /* PBXContainerItemProxy */;
 		};
-		ECC672E342B643C383BFAFFD /* PBXTargetDependency */ = {
+		F6EC80C58B664328A38D3F90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CD5C50D928EA4B71A0D2958B /* Pods-ASOAnimatedButton */;
-			targetProxy = 6C747DE683C443AB9234C62E /* PBXContainerItemProxy */;
+			target = 1F00F8BE98FD4F2A8AC0E40A /* Pods-TwoStateButtonExample-ASOAnimatedButton */;
+			targetProxy = F9D5A46F48BC4D978A376B57 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0097131047AE4D44881DB662 /* Release */ = {
+		016BCD02FAA4445D8E26DCA3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E473E960F3B40EEB9543C3B /* Pods-TwoStateButtonExample-ASOAnimatedButton-Private.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pods-TwoStateButtonExample-ASOAnimatedButton-prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_CFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		2C0752234E0E43BC8107EEA3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD002A9FF8A0490C9910C71B /* Pods-ASOAnimatedButton-Private.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pods-ASOAnimatedButton-prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_CFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4117DA4A0EE94F828573DB7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99621C709F2F4C6CA908B365 /* Pods-TwoStateButtonExample.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		9130CBCEF19043EAABD4F647 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E462C8BE1D394DEABB941FB0 /* Pods.xcconfig */;
+			baseConfigurationReference = 859A684EC24A469FA5257E62 /* Pods-TwoStateButtonExample.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
@@ -535,7 +448,7 @@
 			};
 			name = Release;
 		};
-		9EB64AC4F9B746BD898A748F /* Debug */ = {
+		05C267496B34471E8C4A4793 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -571,7 +484,63 @@
 			};
 			name = Debug;
 		};
-		A34730BA6EE146A79D114AF7 /* Release */ = {
+		19BE5C3887784AA4B17FA203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D8E4DE364B427B93F10F5A /* Pods-ASOAnimatedButton-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-ASOAnimatedButton-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		230D799D87604434810FBC9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 585768987C164A77A8E56E05 /* Pods-TwoStateButtonExample-ASOAnimatedButton-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-TwoStateButtonExample-ASOAnimatedButton-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		47917E0B44B143DB99CABE58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -601,92 +570,39 @@
 			};
 			name = Release;
 		};
-		B4DA951B412F428E992235D8 /* Debug */ = {
+		636AEF2660DC47068E894CF2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD002A9FF8A0490C9910C71B /* Pods-ASOAnimatedButton-Private.xcconfig */;
+			baseConfigurationReference = 585768987C164A77A8E56E05 /* Pods-TwoStateButtonExample-ASOAnimatedButton-Private.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
+				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pods-ASOAnimatedButton-prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		C119E4A5EB074EAAB4F76347 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E462C8BE1D394DEABB941FB0 /* Pods.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		EBC7ED48A90449AB939C8AAC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E473E960F3B40EEB9543C3B /* Pods-TwoStateButtonExample-ASOAnimatedButton-Private.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pods-TwoStateButtonExample-ASOAnimatedButton-prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		FD654412D2EA4C5FAD52463B /* Release */ = {
+		775B0AEFDFB34D4C96A3A240 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99621C709F2F4C6CA908B365 /* Pods-TwoStateButtonExample.xcconfig */;
+			baseConfigurationReference = D5CDA335C58D4831B937C4DB /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
@@ -713,55 +629,139 @@
 			};
 			name = Release;
 		};
+		891933D1F4FB4AF3A4F4E42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 859A684EC24A469FA5257E62 /* Pods-TwoStateButtonExample.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8A6A3C534FBD487ABD475734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D8E4DE364B427B93F10F5A /* Pods-ASOAnimatedButton-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-ASOAnimatedButton-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C52EE0CA69A84EAF8372FB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5CDA335C58D4831B937C4DB /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4602E9DFC1FE42A58BAFC75A /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		0E7C0A5C0FDD49E199FDDA1C /* Build configuration list for PBXNativeTarget "Pods-ASOAnimatedButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C119E4A5EB074EAAB4F76347 /* Debug */,
-				9130CBCEF19043EAABD4F647 /* Release */,
+				19BE5C3887784AA4B17FA203 /* Debug */,
+				8A6A3C534FBD487ABD475734 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1A4CE51281D49EAB207DACD /* Build configuration list for PBXNativeTarget "Pods-TwoStateButtonExample" */ = {
+		1F079CBA0069455FB47DE075 /* Build configuration list for PBXNativeTarget "Pods-TwoStateButtonExample-ASOAnimatedButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4117DA4A0EE94F828573DB7A /* Debug */,
-				FD654412D2EA4C5FAD52463B /* Release */,
+				230D799D87604434810FBC9F /* Debug */,
+				636AEF2660DC47068E894CF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8F3217BE5DD4145B4FEBF5E /* Build configuration list for PBXNativeTarget "Pods-ASOAnimatedButton" */ = {
+		573F48584E7345E29B3328A4 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4DA951B412F428E992235D8 /* Debug */,
-				2C0752234E0E43BC8107EEA3 /* Release */,
+				05C267496B34471E8C4A4793 /* Debug */,
+				47917E0B44B143DB99CABE58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA550929484C416CBBAAC167 /* Build configuration list for PBXProject "Pods" */ = {
+		A767D8874671414B87C75ABA /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EB64AC4F9B746BD898A748F /* Debug */,
-				A34730BA6EE146A79D114AF7 /* Release */,
+				C52EE0CA69A84EAF8372FB70 /* Debug */,
+				775B0AEFDFB34D4C96A3A240 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F514EB59B98644E794B8A66E /* Build configuration list for PBXNativeTarget "Pods-TwoStateButtonExample-ASOAnimatedButton" */ = {
+		F38C789CA991414BB48B5E3A /* Build configuration list for PBXNativeTarget "Pods-TwoStateButtonExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBC7ED48A90449AB939C8AAC /* Debug */,
-				0097131047AE4D44881DB662 /* Release */,
+				891933D1F4FB4AF3A4F4E42F /* Debug */,
+				016BCD02FAA4445D8E26DCA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6B72753485C3443BA7FD80A0 /* Project object */;
+	rootObject = 14DF4F04F6994714B6D2FA72 /* Project object */;
 }

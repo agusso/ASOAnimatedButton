@@ -17,7 +17,7 @@
 		A6B6BFCC18E4E51000DE8045 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B6BFCB18E4E51000DE8045 /* AppDelegate.m */; };
 		A6B6BFCF18E4E51100DE8045 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B6BFCD18E4E51100DE8045 /* Main_iPhone.storyboard */; };
 		A6B6BFD218E4E51100DE8045 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B6BFD018E4E51100DE8045 /* Main_iPad.storyboard */; };
-		A6B6BFD818E4E51200DE8045 /* ArchStyleMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B6BFD718E4E51200DE8045 /* ArchStyleMenuViewController.m */; };
+		A6B6BFD818E4E51200DE8045 /* RiseStyleMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B6BFD718E4E51200DE8045 /* RiseStyleMenuViewController.m */; };
 		A6B6BFDA18E4E51300DE8045 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B6BFD918E4E51300DE8045 /* Images.xcassets */; };
 		A6B6BFE118E4E51400DE8045 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B6BFE018E4E51400DE8045 /* XCTest.framework */; };
 		A6B6BFE218E4E51400DE8045 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B6BFBB18E4E51000DE8045 /* Foundation.framework */; };
@@ -55,8 +55,8 @@
 		A6B6BFCB18E4E51000DE8045 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A6B6BFCE18E4E51100DE8045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		A6B6BFD118E4E51100DE8045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		A6B6BFD618E4E51100DE8045 /* ArchStyleMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArchStyleMenuViewController.h; sourceTree = "<group>"; };
-		A6B6BFD718E4E51200DE8045 /* ArchStyleMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchStyleMenuViewController.m; sourceTree = "<group>"; };
+		A6B6BFD618E4E51100DE8045 /* RiseStyleMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RiseStyleMenuViewController.h; sourceTree = "<group>"; };
+		A6B6BFD718E4E51200DE8045 /* RiseStyleMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RiseStyleMenuViewController.m; sourceTree = "<group>"; };
 		A6B6BFD918E4E51300DE8045 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A6B6BFDF18E4E51400DE8045 /* BounceButtonExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BounceButtonExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B6BFE018E4E51400DE8045 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -132,8 +132,8 @@
 				A6B6BFD018E4E51100DE8045 /* Main_iPad.storyboard */,
 				5EF30CBF18E590A700295D50 /* ExpandStyleMenuViewController.h */,
 				5EF30CBE18E590A700295D50 /* ExpandStyleMenuViewController.m */,
-				A6B6BFD618E4E51100DE8045 /* ArchStyleMenuViewController.h */,
-				A6B6BFD718E4E51200DE8045 /* ArchStyleMenuViewController.m */,
+				A6B6BFD618E4E51100DE8045 /* RiseStyleMenuViewController.h */,
+				A6B6BFD718E4E51200DE8045 /* RiseStyleMenuViewController.m */,
 				5EF30CC018E590A700295D50 /* BounceButtonView.h */,
 				5EF30CC118E590A700295D50 /* BounceButtonView.m */,
 				A6B6BFD918E4E51300DE8045 /* Images.xcassets */,
@@ -304,7 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6B6BFD818E4E51200DE8045 /* ArchStyleMenuViewController.m in Sources */,
+				A6B6BFD818E4E51200DE8045 /* RiseStyleMenuViewController.m in Sources */,
 				5EF30CC218E590A700295D50 /* ExpandStyleMenuViewController.m in Sources */,
 				A6B6BFCC18E4E51000DE8045 /* AppDelegate.m in Sources */,
 				5EF30CC318E590A700295D50 /* BounceButtonView.m in Sources */,

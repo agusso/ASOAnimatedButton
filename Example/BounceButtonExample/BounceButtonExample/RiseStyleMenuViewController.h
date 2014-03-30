@@ -1,5 +1,5 @@
 //
-//  ArchStyleMenuViewController.h
+//  RiseStyleMenuViewController.h
 //  BounceButtonExample
 //
 //  Created by Agus Soedibjo on 28/3/14.
@@ -11,12 +11,13 @@
 #import "ASOBounceButtonViewDelegate.h"
 #import "BounceButtonView.h"
 
-@interface ArchStyleMenuViewController : UIViewController <ASOBounceButtonViewDelegate>
+@interface RiseStyleMenuViewController : UIViewController <ASOBounceButtonViewDelegate>
 
 @property (strong, nonatomic) IBOutlet ASOTwoStateButton *menuButton;
 @property (strong, nonatomic) BounceButtonView *menuItemView;
+@property (weak, nonatomic) IBOutlet UIButton *changeAnimationStyleButton;
 
 - (IBAction)menuButtonAction:(id)sender;
-- (IBAction)tapMeButtonAction:(id)sender;
+- (IBAction)changeAnimationStyleButtonAction:(id)sender;
 
 @end

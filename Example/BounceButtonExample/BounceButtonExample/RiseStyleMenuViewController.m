@@ -1,14 +1,18 @@
 //
-//  ArchStyleMenuViewController.m
+//  RiseStyleMenuViewController.m
 //  BounceButtonExample
 //
 //  Created by Agus Soedibjo on 28/3/14.
 //  Copyright (c) 2014 Agus Soedibjo. All rights reserved.
 //
 
-#import "ArchStyleMenuViewController.h"
+#import "RiseStyleMenuViewController.h"
 
-@implementation ArchStyleMenuViewController
+@interface RiseStyleMenuViewController()
+@property (nonatomic) ASOAnimationStyle progressiveORConcurrentStyle;
+@end
+
+@implementation RiseStyleMenuViewController
 
 - (void)viewDidLoad
 {
@@ -28,9 +32,14 @@
                                    self.menuItemView.menuItem4,
                                    nil]; // Add all of the defined 'menu item button' to 'menu item view'
     [self.menuItemView addBounceButtons:arrMenuItemButtons];
-    [self.menuItemView setSpeed:[NSNumber numberWithFloat:0.5f]];
+    
+    // Set the bouncing distance, speed and fade-out effect duration here. Refer to the ASOBounceButtonView public properties
+    [self.menuItemView setSpeed:[NSNumber numberWithFloat:0.3f]];
     [self.menuItemView setBouncingDistance:[NSNumber numberWithFloat:0.3f]];
-    [self.menuItemView setFadeOutDuration:[NSNumber numberWithFloat:0.01f]];
+    
+    [self.menuItemView setAnimationStyle:ASOAnimationStyleRiseProgressively];
+    [self.changeAnimationStyleButton setTitle:@"Progressively" forState:UIControlStateNormal];
+    self.progressiveORConcurrentStyle = ASOAnimationStyleRiseProgressively;
     
     // Set as delegate of 'menu item view'
     [self.menuItemView setDelegate:self];
@@ -53,11 +62,11 @@
     if ([sender isOn]) {
         // Show 'menu item view' and expand its 'menu item button'
         [self.menuButton addCustomView:self.menuItemView];
-        [self.menuItemView expandWithAnimationStyle:ASOAnimationStyleConcurrent];
+        [self.menuItemView expandWithAnimationStyle:self.progressiveORConcurrentStyle];
     }
     else {
         // Collapse all 'menu item button' and remove 'menu item view'
-        [self.menuItemView collapseWithAnimationStyle:ASOAnimationStyleConcurrent];
+        [self.menuItemView collapseWithAnimationStyle:self.progressiveORConcurrentStyle];
         [self.menuButton removeCustomView:self.menuItemView interval:[self.menuItemView.collapsedViewDuration doubleValue]];
     }
 }
@@ -83,9 +92,14 @@
     [self.menuItemView setAnimationStartFromHere:self.menuButton.frame];
 }
 
-- (IBAction)tapMeButtonAction:(id)sender {
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Tap Me button is selected" message:nil delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-    [alertView show];
+- (IBAction)changeAnimationStyleButtonAction:(id)sender {
+    if ([[sender titleLabel].text isEqualToString:@"Progressively"]) {
+        [self.changeAnimationStyleButton setTitle:@"Concurrently" forState: UIControlStateNormal];
+        self.progressiveORConcurrentStyle = ASOAnimationStyleRiseConcurrently;
+    } else {
+        [self.changeAnimationStyleButton setTitle:@"Progressively" forState:UIControlStateNormal];
+        self.progressiveORConcurrentStyle = ASOAnimationStyleRiseProgressively;
+    }
 }
 
 @end

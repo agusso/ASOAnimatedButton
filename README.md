@@ -18,7 +18,7 @@ it simply add the following line to your Podfile:
 
 ## Author
 
-Agus Soedibjo, contact@soedibjo.org
+Agus Soedibjo, contact@soedibjo.com
 
 ## License
 

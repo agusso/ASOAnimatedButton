@@ -29,6 +29,9 @@
                                    nil]; // Add all of the defined 'menu item button' to 'menu item view'
     [self.menuItemView addBounceButtons:arrMenuItemButtons];
     
+    // Set the bouncing distance, speed and fade-out effect duration here. Refer to the ASOBounceButtonView public properties
+    [self.menuItemView setBouncingDistance:[NSNumber numberWithFloat:0.7f]];
+    
     // Set as delegate of 'menu item view'
     [self.menuItemView setDelegate:self];
 }
@@ -50,11 +53,11 @@
     if ([sender isOn]) {
         // Show 'menu item view' and expand its 'menu item button'
         [self.menuButton addCustomView:self.menuItemView];
-        [self.menuItemView expandWithAnimationStyle:ASOAnimationStyleSequential];
+        [self.menuItemView expandWithAnimationStyle:ASOAnimationStyleExpand];
     }
     else {
         // Collapse all 'menu item button' and remove 'menu item view'
-        [self.menuItemView collapseWithAnimationStyle:ASOAnimationStyleSequential];
+        [self.menuItemView collapseWithAnimationStyle:ASOAnimationStyleExpand];
         [self.menuButton removeCustomView:self.menuItemView interval:[self.menuItemView.collapsedViewDuration doubleValue]];
     }
 }

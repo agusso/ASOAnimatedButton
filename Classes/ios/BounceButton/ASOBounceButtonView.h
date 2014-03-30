@@ -13,8 +13,9 @@
 @interface ASOBounceButtonView : UIView
 
 typedef enum {
-    ASOAnimationStyleSequential,
-    ASOAnimationStyleConcurrent
+    ASOAnimationStyleExpand,
+    ASOAnimationStyleRiseProgressively,
+    ASOAnimationStyleRiseConcurrently
 }ASOAnimationStyle;
 
 @property (strong, nonatomic) NSNumber *speed;
@@ -22,6 +23,7 @@ typedef enum {
 @property (strong, nonatomic) NSNumber *bouncingDistance;
 @property (strong, nonatomic) NSNumber *expandedViewDuration;
 @property (strong, nonatomic) NSNumber *collapsedViewDuration;
+@property (nonatomic) ASOAnimationStyle animationStyle;
 
 @property (weak, nonatomic) id <ASOBounceButtonViewDelegate> delegate;
 
