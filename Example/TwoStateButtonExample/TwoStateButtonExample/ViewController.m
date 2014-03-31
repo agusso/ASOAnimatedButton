@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    // Set the 'Two State Button'
+    [self.twoStateButton initAnimationWithFadeEffectEnabled:YES]; // Set to 'NO' to disable Fade effect between its two-state transition
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +29,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)twoStateButtonAction:(id)sender {
+    if ([sender isOn]) {
+        self.greetingLabel.text = @"See You !";
+    } else {
+       self.greetingLabel.text = @"Welcome !";
+    }
+}
 @end

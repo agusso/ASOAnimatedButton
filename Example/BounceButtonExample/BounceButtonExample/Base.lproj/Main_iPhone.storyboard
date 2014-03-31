@@ -106,7 +106,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9n-ac-mN1">
-                                <rect key="frame" x="135" y="57" width="51" height="30"/>
+                                <rect key="frame" x="135" y="450" width="51" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Tap Me">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -119,9 +119,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="J5O-a0-GIU" secondAttribute="trailing" constant="20" id="4bG-OQ-VRO"/>
-                            <constraint firstAttribute="centerX" secondItem="R9n-ac-mN1" secondAttribute="centerX" id="BJF-eL-RZx"/>
+                            <constraint firstAttribute="bottom" secondItem="R9n-ac-mN1" secondAttribute="bottom" constant="88" id="HR5-sr-Add"/>
+                            <constraint firstAttribute="centerX" secondItem="R9n-ac-mN1" secondAttribute="centerX" id="UFD-8g-o8j"/>
                             <constraint firstAttribute="bottom" secondItem="J5O-a0-GIU" secondAttribute="bottom" constant="80" id="tea-iJ-wwC"/>
-                            <constraint firstAttribute="bottom" secondItem="R9n-ac-mN1" secondAttribute="bottom" constant="481" id="zqm-Ts-naf"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Expand" image="first" id="u1e-5L-l1D"/>

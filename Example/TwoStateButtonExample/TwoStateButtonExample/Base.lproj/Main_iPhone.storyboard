@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oX0-D0-n0a" customClass="ASOTwoStateButton">
-                                <rect key="frame" x="239" y="106" width="45" height="45"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oX0-D0-n0a" customClass="ASOTwoStateButton">
+                                <rect key="frame" x="132" y="205" width="56" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="StateOneButtonImage">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -26,10 +26,30 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="OnStateImageName" value="StateOneButtonImage"/>
                                     <userDefinedRuntimeAttribute type="string" keyPath="OffStateImageName" value="StateTwoButtonImage"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="twoStateButtonAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="n22-qQ-jZM"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome !" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZp-Up-ZZl">
+                                <rect key="frame" x="120" y="274" width="80" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="oX0-D0-n0a" secondAttribute="centerX" id="7hD-ue-YMu"/>
+                            <constraint firstAttribute="centerX" secondItem="xZp-Up-ZZl" secondAttribute="centerX" id="A16-0f-3Nw"/>
+                            <constraint firstItem="xZp-Up-ZZl" firstAttribute="top" secondItem="oX0-D0-n0a" secondAttribute="bottom" constant="13" id="Zgx-gL-OAg"/>
+                            <constraint firstAttribute="centerY" secondItem="xZp-Up-ZZl" secondAttribute="centerY" id="jZg-oT-hGL"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greetingLabel" destination="xZp-Up-ZZl" id="49j-go-PTk"/>
+                        <outlet property="twoStateButton" destination="oX0-D0-n0a" id="LWj-Vz-KnS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

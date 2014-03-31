@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <ASOTwoStateButton.h>
 
 @interface ViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet ASOTwoStateButton *twoStateButton;
+@property (weak, nonatomic) IBOutlet UILabel *greetingLabel;
+
+- (IBAction)twoStateButtonAction:(id)sender;
 
 @end

@@ -17,6 +17,7 @@
 
 @property (strong, nonatomic) NSMutableArray *bounceButtons;
 @property (nonatomic) CGPoint startAnimationPoint;
+@property (strong, readwrite, nonatomic) NSNumber *collapsedViewDuration;
 
 @end
 
