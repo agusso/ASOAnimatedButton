@@ -3,6 +3,8 @@
 [![Version](http://cocoapod-badges.herokuapp.com/v/ASOAnimatedButton/badge.png)](http://cocoadocs.org/docsets/ASOAnimatedButton)
 [![Platform](http://cocoapod-badges.herokuapp.com/p/ASOAnimatedButton/badge.png)](http://cocoadocs.org/docsets/ASOAnimatedButton)
 
+![Animation Preview](https://github.com/agusso/ASOAnimatedButton.wiki/Assets/ASOAnimatedButton-preview-full.gif)
+
 ## Usage
 
 To run the example project; clone the repo, and run `pod install` from the Example directory first.
