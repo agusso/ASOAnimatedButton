@@ -3,7 +3,7 @@
 [![Version](http://cocoapod-badges.herokuapp.com/v/ASOAnimatedButton/badge.png)](http://cocoadocs.org/docsets/ASOAnimatedButton)
 [![Platform](http://cocoapod-badges.herokuapp.com/p/ASOAnimatedButton/badge.png)](http://cocoadocs.org/docsets/ASOAnimatedButton)
 
-![Animation Preview](https://github.com/agusso/ASOAnimatedButton.wiki/Assets/ASOAnimatedButton-preview-full.gif)
+![Animation Preview](https://raw.githubusercontent.com/wiki/agusso/ASOAnimatedButton/Assets/ASOAnimatedButton-preview-full.gif)
 
 ## Usage
 
