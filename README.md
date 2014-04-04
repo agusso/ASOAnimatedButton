@@ -46,8 +46,7 @@ If you need help using `ASOAnimatedButton`, please post a question on [StackOver
 If you think you found a problem with `ASOAnimatedButton`, please [post an issue](https://github.com/agusso/ASOAnimatedButton/issues). A sample project or fork of any of the examples demonstrating the problem will be helpful.
 
 ## Author
-Agus Soedibjo
-Copyright (c) 2014 Agus Soedibjo, contact@soedibjo.com
+Agus Soedibjo. Copyright (c) 2014 Agus Soedibjo, contact@soedibjo.com
 
 ## License
 
