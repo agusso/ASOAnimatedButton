@@ -100,6 +100,7 @@
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="OffStateImageName" value="OffStateButtonImage"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="OnStateImageName" value="OnStateButtonImage"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="menuButtonAction:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="nta-kk-6Ft"/>
