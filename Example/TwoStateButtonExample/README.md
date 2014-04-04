@@ -1,6 +1,6 @@
 # TwoStateButtonExample
 
-This App shows a toggle button which change its image on it every time it is tapped. A fade-out effect is set between its state changes.
+This App shows a toggle button which change its image every time it is tapped. A fade-out effect is set between its state changes.
 
 ![ASOTwoStateButton animation preview](https://raw.githubusercontent.com/wiki/agusso/ASOAnimatedButton/Assets/ASOTwoStateButton-preview.gif)
 
@@ -15,7 +15,7 @@ platform :ios, '7.0'
 pod 'ASOAnimatedButton'
 ```
 
-Or add these line if only the `ASOTwoStateButton` library is going to be used in the project:
+Or add these lines if only the `ASOTwoStateButton` library is going to be used in the project:
 
 ``` ruby
 platform :ios, '7.0'
@@ -26,47 +26,46 @@ pod 'ASOAnimatedButton/TwoStateButton’
 
 Define each image name as values of `OnStateImageName` and `OffStateImageName` keys in `User Defined Runtime Attributes` of the ASOTwoStateButton object.
 
-[ASOTwoStateButton storyboard preview](https://raw.githubusercontent.com/wiki/agusso/ASOAnimatedButton/Assets/ASOTwoStateButton-storyboard.png)
+![ASOTwoStateButton storyboard preview](https://raw.githubusercontent.com/wiki/agusso/ASOAnimatedButton/Assets/ASOTwoStateButton-storyboard.png)
 
 ### Implementation
 
+Initialise the 'Two-State Button'
 ``` objective-c
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    // Set the 'Two State Button'
+    // Set the 'Two-State Button'
     [self.twoStateButton initAnimationWithFadeEffectEnabled:YES]; // Set to 'NO' to disable Fade effect between its two-state transition
 }
-
 ```
 
+Add custom actions for each state
 ``` objective-c
-
 - (IBAction)twoStateButtonAction:(id)sender {
     if ([sender isOn]) {
-        // Add action related to the On-State
+        // Add actions related to the On-State
 	
     } else {
        // Add actions related to the Off-State
 
     }
 }
-
 ```
 
 ### Styling
 
 Control whether fade effect is enabled between state changing
-
+``` objective-c
 @property (nonatomic) BOOL isFadeEffectEnabled;
+```
 
 Control the effect duration between state changing
-
+``` objective-c
 @property (nonatomic) NSTimeInterval effectDuration;
-
+```
 
 ## Getting Help
 
