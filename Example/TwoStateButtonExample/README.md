@@ -19,7 +19,7 @@ Or add these lines if only the `ASOTwoStateButton` library is going to be used i
 
 ``` ruby
 platform :ios, '7.0'
-pod 'ASOAnimatedButton/TwoStateButton’
+pod 'ASOAnimatedButton/TwoStateButton'
 ```
 
 ### Storyboard
@@ -31,7 +31,7 @@ Define each image name as values of `OnStateImageName` and `OffStateImageName` k
 ### Implementation
 
 Initialise the 'Two-State Button'
-``` objective-c
+``` objectivec
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -43,7 +43,7 @@ Initialise the 'Two-State Button'
 ```
 
 Add custom actions for each state
-``` objective-c
+``` objectivec
 - (IBAction)twoStateButtonAction:(id)sender {
     if ([sender isOn]) {
         // Add actions related to the On-State
@@ -58,12 +58,12 @@ Add custom actions for each state
 ### Styling
 
 Control whether fade effect is enabled between state changing
-``` objective-c
+``` objectivec
 @property (nonatomic) BOOL isFadeEffectEnabled;
 ```
 
 Control the effect duration between state changing
-``` objective-c
+``` objectivec
 @property (nonatomic) NSTimeInterval effectDuration;
 ```
 
