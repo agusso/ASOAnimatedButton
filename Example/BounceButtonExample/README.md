@@ -48,8 +48,6 @@ Set the outlet of all the buttons defined on `Menu Item View` to the `BounceButt
 @end
 ```
 
-![ASOBounceButton 'Expand' menu item buttons storyboard preview](https://raw.githubusercontent.com/wiki/agusso/ASOAnimatedButton/Assets/ASOBounceButton-expand-menuitembuttons-storyboard.png)
-
 ### Implementation
 
 Set the designated UIViewController as the delegate of `ASOBounceButtonView` Class
