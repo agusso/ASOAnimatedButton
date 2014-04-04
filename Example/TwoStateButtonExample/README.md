@@ -55,7 +55,7 @@ Add custom actions for each state
 }
 ```
 
-### Styling
+### Controls
 
 Control whether fade effect is enabled between state changing
 ``` objectivec
