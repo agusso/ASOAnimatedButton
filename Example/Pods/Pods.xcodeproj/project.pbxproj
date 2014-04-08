@@ -1,1802 +1,840 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>01381CB4969F42CAA01CE1F8</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D7D379D98A5F4FEE9C76D690</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>0148932BAECA45A7BF81ACC4</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FC461367648B43E5A74D7F5F</string>
-				<string>8A3D98DE72234CF6AF29DA04</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>0231D8882E0D4433A483C7DA</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>BounceButton</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>02EB8BAE31EE41E6AE190B8A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>82ED0F4FADC1455598D8CE39</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>04B0B68251C045B3B9462592</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>0148932BAECA45A7BF81ACC4</string>
-			<key>buildPhases</key>
-			<array>
-				<string>0B3B84B5F4DE4C2B84F4E5F4</string>
-				<string>EEC3005A076A4F7FB9188111</string>
-				<string>88300899CE5B4382AB46029C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-ASOAnimatedButton</string>
-			<key>productName</key>
-			<string>Pods-ASOAnimatedButton</string>
-			<key>productReference</key>
-			<string>2E809EC798BE4A97AF18C39C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>08DB995EE3304E18BE066CE6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6BFA8EF85ED24F3A8F5D1802</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0A0D46281E7F41F28FFC3E23</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>450845466C014879A2BF7A70</string>
-				<string>4ACF3A56D44D44AD84E7CAC8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>0B3B84B5F4DE4C2B84F4E5F4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E93F483A1B034E5FAC0998B0</string>
-				<string>555F5E958E8B40169257A4DE</string>
-				<string>9C2BD351339C441387CD7182</string>
-				<string>A1634313895A4490BD4B86E9</string>
-				<string>C7634C717176491B83AED45E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0E5C9D3DA5994123ACDA5A8C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-TwoStateButtonExample-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0E8A92E46D674FB1BD0886AE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ASOAnimatedButton.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>115EEB45BBAF4C5FB1DEB44D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BED5B9C9DAAB4B54A96C1824</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>144176F7468F466BA6A049E7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>115EEB45BBAF4C5FB1DEB44D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>16E4E38BBCEE49EAA6C7D6B7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3818EB6341B64F06A630C52A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1D6F6D757ECD482E9783332A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-TwoStateButtonExample-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>209B367D4EF04B5CB96214AE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6E429F2EDA4248A6BDAFC451</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2B3FE26F91B84FFBA73FB01A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>04B0B68251C045B3B9462592</string>
-			<key>targetProxy</key>
-			<string>5E7B5941FD0947BF9C9EE45D</string>
-		</dict>
-		<key>2CC732C7FEAB498492B66EBA</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>0A0D46281E7F41F28FFC3E23</string>
-			<key>buildPhases</key>
-			<array>
-				<string>2DCC780C901C4FDEB7AAE1A4</string>
-				<string>B840E96843944C1EA82E1E8C</string>
-				<string>AC22399E5E9F4555A0EE5CBA</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-TwoStateButtonExample-ASOAnimatedButton</string>
-			<key>productName</key>
-			<string>Pods-TwoStateButtonExample-ASOAnimatedButton</string>
-			<key>productReference</key>
-			<string>3818EB6341B64F06A630C52A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>2DA5963B08D148039F648F4A</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FA0B3A05F7E949288CEBEA51</string>
-			<key>buildPhases</key>
-			<array>
-				<string>02EB8BAE31EE41E6AE190B8A</string>
-				<string>7846E626B3F645C3A6B35CD9</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>2B3FE26F91B84FFBA73FB01A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>90CAE358E3E346E68AE2C099</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>2DCC780C901C4FDEB7AAE1A4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BE735D062DF94230972924B3</string>
-				<string>9B226C2B926445E09A15A263</string>
-				<string>CA1D5F6173734B59AF5F6C47</string>
-				<string>C878D5A59E38452995FFEA50</string>
-				<string>ADBA14E31F624C8E8D27EB7F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2DFD5DFB813741F99B27B127</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ASOAnimatedButton-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2E809EC798BE4A97AF18C39C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-ASOAnimatedButton.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>33DF45CDF7724FA9BCF0D084</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8768389B30894FC08547E9ED</string>
-				<string>16E4E38BBCEE49EAA6C7D6B7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3480266B08FD4DB8947C50A0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ASOTwoStateButton.m</string>
-			<key>path</key>
-			<string>Classes/ios/TwoStateButton/ASOTwoStateButton.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>358378727EA544DB87ED9C40</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-TwoStateButtonExample-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>372F73D72BE24DDEB946E4AD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6E429F2EDA4248A6BDAFC451</string>
-				<string>6F7C85F2C45F4B49AB4022C4</string>
-				<string>846CC749D333434CB78498F1</string>
-				<string>6BFA8EF85ED24F3A8F5D1802</string>
-				<string>3480266B08FD4DB8947C50A0</string>
-				<string>0231D8882E0D4433A483C7DA</string>
-				<string>526F2314919F4DECBBE78027</string>
-				<string>78A603AB45514A6B9DD0306D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ASOAnimatedButton</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3818EB6341B64F06A630C52A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-TwoStateButtonExample-ASOAnimatedButton.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3A2172F72E564D7ABBC2972F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BED5B9C9DAAB4B54A96C1824</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>421E0A54E17A4C28B90488F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>846CC749D333434CB78498F1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>450845466C014879A2BF7A70</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C66A7B93868642FF880BB530</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-TwoStateButtonExample-ASOAnimatedButton-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4914EE1A415C466F923B14A5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-TwoStateButtonExample-ASOAnimatedButton-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4A57CE977EF842E0A03BCF73</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-TwoStateButtonExample.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>4ACF3A56D44D44AD84E7CAC8</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C66A7B93868642FF880BB530</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-TwoStateButtonExample-ASOAnimatedButton-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>526F2314919F4DECBBE78027</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0E8A92E46D674FB1BD0886AE</string>
-				<string>2DFD5DFB813741F99B27B127</string>
-				<string>62087F18A66849439015036A</string>
-				<string>BA74B98181AB47A583C28378</string>
-				<string>F5CB46E0E08D4DA0A5AC1DDA</string>
-				<string>C66A7B93868642FF880BB530</string>
-				<string>4914EE1A415C466F923B14A5</string>
-				<string>78EC4D50B9794311AEE0858E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>555F5E958E8B40169257A4DE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6F7C85F2C45F4B49AB4022C4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>573894FDB4C1490C96FD9D84</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EBDF693EDD4B4DCEA0DA08B6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>58C44B9296FA4ABDB91CFD10</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6E429F2EDA4248A6BDAFC451</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5AE64C3950C2417AAB5AB18E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>372F73D72BE24DDEB946E4AD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5CE7695879834BFF81C067E5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6E429F2EDA4248A6BDAFC451</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5E7B5941FD0947BF9C9EE45D</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>60447E2F91504DCB9C86D2BB</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>04B0B68251C045B3B9462592</string>
-			<key>remoteInfo</key>
-			<string>Pods-ASOAnimatedButton</string>
-		</dict>
-		<key>5F16F5B0FE6443BDB287FC3C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6E429F2EDA4248A6BDAFC451</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>60447E2F91504DCB9C86D2BB</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>8726B326865E4D369C8C871E</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>F4F98F310DD348B68617099A</string>
-			<key>productRefGroup</key>
-			<string>DB8D414756C2451DA5B48176</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>2DA5963B08D148039F648F4A</string>
-				<string>04B0B68251C045B3B9462592</string>
-				<string>B98BD86E67DD46BE92C2F453</string>
-				<string>2CC732C7FEAB498492B66EBA</string>
-			</array>
-		</dict>
-		<key>62087F18A66849439015036A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-ASOAnimatedButton-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6BD9C7C9DF794F36A2E44F63</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>6BFA8EF85ED24F3A8F5D1802</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ASOTwoStateButton.h</string>
-			<key>path</key>
-			<string>Classes/ios/TwoStateButton/ASOTwoStateButton.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6E429F2EDA4248A6BDAFC451</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ASOBounceButtonView.h</string>
-			<key>path</key>
-			<string>Classes/ios/BounceButton/ASOBounceButtonView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6F7C85F2C45F4B49AB4022C4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ASOBounceButtonView.m</string>
-			<key>path</key>
-			<string>Classes/ios/BounceButton/ASOBounceButtonView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7846E626B3F645C3A6B35CD9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>CA04C784D0904C6280484B73</string>
-				<string>9B9281411B11420994B17ACA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>78A603AB45514A6B9DD0306D</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>TwoStateButton</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>78EC4D50B9794311AEE0858E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-TwoStateButtonExample-ASOAnimatedButton-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DDA9E085EE045FABBA0AEE2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>82ED0F4FADC1455598D8CE39</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E0F99CFE952341CE9C445B8D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>846CC749D333434CB78498F1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ASOBounceButtonViewDelegate.h</string>
-			<key>path</key>
-			<string>Classes/ios/BounceButton/ASOBounceButtonViewDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8726B326865E4D369C8C871E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>6BD9C7C9DF794F36A2E44F63</string>
-				<string>E3A908EF941347DFA217E549</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8768389B30894FC08547E9ED</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BED5B9C9DAAB4B54A96C1824</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>88300899CE5B4382AB46029C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>209B367D4EF04B5CB96214AE</string>
-				<string>5CE7695879834BFF81C067E5</string>
-				<string>FEF9C9424EBF4989B49EDCBD</string>
-				<string>D090536F6BE943E2A190FB6F</string>
-				<string>B11A1C6E9DD54B8FB2C1939A</string>
-				<string>F7B3BCD8B7B04DC6A1D7D587</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8A3D98DE72234CF6AF29DA04</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2DFD5DFB813741F99B27B127</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-ASOAnimatedButton-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>90CAE358E3E346E68AE2C099</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>910565E6B5F1489BBF0B26D9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>846CC749D333434CB78498F1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9508FF0FF9BD4219A01314D8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D7D379D98A5F4FEE9C76D690</string>
-				<string>7DDA9E085EE045FABBA0AEE2</string>
-				<string>E6799ED73F56495F83B2A0D3</string>
-				<string>E0F99CFE952341CE9C445B8D</string>
-				<string>B4D6ADAD9B0C4323928D3E22</string>
-				<string>A834CF787DA74962A7690377</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B226C2B926445E09A15A263</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6F7C85F2C45F4B49AB4022C4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>9B9281411B11420994B17ACA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2E809EC798BE4A97AF18C39C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9C2BD351339C441387CD7182</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3480266B08FD4DB8947C50A0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>A1634313895A4490BD4B86E9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3480266B08FD4DB8947C50A0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>A834CF787DA74962A7690377</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AC22399E5E9F4555A0EE5CBA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5F16F5B0FE6443BDB287FC3C</string>
-				<string>58C44B9296FA4ABDB91CFD10</string>
-				<string>421E0A54E17A4C28B90488F4</string>
-				<string>910565E6B5F1489BBF0B26D9</string>
-				<string>C076E4AD6A964CC1AAE3C620</string>
-				<string>08DB995EE3304E18BE066CE6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>ADBA14E31F624C8E8D27EB7F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4914EE1A415C466F923B14A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF88C7F1652E4DC2934A1636</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-TwoStateButtonExample.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B11A1C6E9DD54B8FB2C1939A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6BFA8EF85ED24F3A8F5D1802</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B4D6ADAD9B0C4323928D3E22</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B840E96843944C1EA82E1E8C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D3AF256915A7445E9AB300BC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B98BD86E67DD46BE92C2F453</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D750D0495F4E41FA976B5117</string>
-			<key>buildPhases</key>
-			<array>
-				<string>573894FDB4C1490C96FD9D84</string>
-				<string>33DF45CDF7724FA9BCF0D084</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>CB13FD249C25493D9678D0C4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-TwoStateButtonExample</string>
-			<key>productName</key>
-			<string>Pods-TwoStateButtonExample</string>
-			<key>productReference</key>
-			<string>4A57CE977EF842E0A03BCF73</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>BA74B98181AB47A583C28378</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-ASOAnimatedButton-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BE735D062DF94230972924B3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6F7C85F2C45F4B49AB4022C4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>BED5B9C9DAAB4B54A96C1824</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>C0233A791D734592A90C32EA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-TwoStateButtonExample-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C076E4AD6A964CC1AAE3C620</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6BFA8EF85ED24F3A8F5D1802</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C3220B87AED84586A4788FA2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>C66A7B93868642FF880BB530</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-TwoStateButtonExample-ASOAnimatedButton-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7634C717176491B83AED45E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>62087F18A66849439015036A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C878D5A59E38452995FFEA50</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3480266B08FD4DB8947C50A0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>CA04C784D0904C6280484B73</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BED5B9C9DAAB4B54A96C1824</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CA1D5F6173734B59AF5F6C47</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3480266B08FD4DB8947C50A0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>CB13FD249C25493D9678D0C4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>2CC732C7FEAB498492B66EBA</string>
-			<key>targetProxy</key>
-			<string>E58D338360E6406DBC6B970A</string>
-		</dict>
-		<key>D090536F6BE943E2A190FB6F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>846CC749D333434CB78498F1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D3AF256915A7445E9AB300BC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BED5B9C9DAAB4B54A96C1824</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D71F4B61053B45818B88A356</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D7D379D98A5F4FEE9C76D690</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D750D0495F4E41FA976B5117</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>F5DE40E41B6846588AA62B1E</string>
-				<string>ED31BC78C005458D9E5A9146</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D7D379D98A5F4FEE9C76D690</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DB8D414756C2451DA5B48176</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>90CAE358E3E346E68AE2C099</string>
-				<string>2E809EC798BE4A97AF18C39C</string>
-				<string>4A57CE977EF842E0A03BCF73</string>
-				<string>3818EB6341B64F06A630C52A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE0A7114C7D7410C96A28845</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AF88C7F1652E4DC2934A1636</string>
-				<string>0E5C9D3DA5994123ACDA5A8C</string>
-				<string>C0233A791D734592A90C32EA</string>
-				<string>1D6F6D757ECD482E9783332A</string>
-				<string>F845E44C0B5547CF9F968EBC</string>
-				<string>358378727EA544DB87ED9C40</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-TwoStateButtonExample</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E0F99CFE952341CE9C445B8D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E3A908EF941347DFA217E549</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E58D338360E6406DBC6B970A</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>60447E2F91504DCB9C86D2BB</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>2CC732C7FEAB498492B66EBA</string>
-			<key>remoteInfo</key>
-			<string>Pods-TwoStateButtonExample-ASOAnimatedButton</string>
-		</dict>
-		<key>E6799ED73F56495F83B2A0D3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E8EFD0EE1DF64816B2455DAA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9508FF0FF9BD4219A01314D8</string>
-				<string>DE0A7114C7D7410C96A28845</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E93F483A1B034E5FAC0998B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6F7C85F2C45F4B49AB4022C4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>EBDF693EDD4B4DCEA0DA08B6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1D6F6D757ECD482E9783332A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ED31BC78C005458D9E5A9146</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AF88C7F1652E4DC2934A1636</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EEC3005A076A4F7FB9188111</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3A2172F72E564D7ABBC2972F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F4F98F310DD348B68617099A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C3220B87AED84586A4788FA2</string>
-				<string>5AE64C3950C2417AAB5AB18E</string>
-				<string>144176F7468F466BA6A049E7</string>
-				<string>DB8D414756C2451DA5B48176</string>
-				<string>E8EFD0EE1DF64816B2455DAA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5CB46E0E08D4DA0A5AC1DDA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-TwoStateButtonExample-ASOAnimatedButton.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5DE40E41B6846588AA62B1E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AF88C7F1652E4DC2934A1636</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>F7B3BCD8B7B04DC6A1D7D587</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6BFA8EF85ED24F3A8F5D1802</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F845E44C0B5547CF9F968EBC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-TwoStateButtonExample-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA0B3A05F7E949288CEBEA51</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D71F4B61053B45818B88A356</string>
-				<string>01381CB4969F42CAA01CE1F8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FC461367648B43E5A74D7F5F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2DFD5DFB813741F99B27B127</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-ASOAnimatedButton-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FEF9C9424EBF4989B49EDCBD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>846CC749D333434CB78498F1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>60447E2F91504DCB9C86D2BB</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5E84645E18F44C2F00E42510 /* Documentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5E84646118F44C2F00E42510 /* Build configuration list for PBXAggregateTarget "Documentation" */;
+			buildPhases = (
+				5E84646218F44C3600E42510 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Documentation;
+			productName = Documentation;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		08DB995EE3304E18BE066CE6 /* ASOTwoStateButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BFA8EF85ED24F3A8F5D1802 /* ASOTwoStateButton.h */; };
+		16E4E38BBCEE49EAA6C7D6B7 /* libPods-TwoStateButtonExample-ASOAnimatedButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3818EB6341B64F06A630C52A /* libPods-TwoStateButtonExample-ASOAnimatedButton.a */; };
+		209B367D4EF04B5CB96214AE /* ASOBounceButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E429F2EDA4248A6BDAFC451 /* ASOBounceButtonView.h */; };
+		3A2172F72E564D7ABBC2972F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED5B9C9DAAB4B54A96C1824 /* Foundation.framework */; };
+		421E0A54E17A4C28B90488F4 /* ASOBounceButtonViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 846CC749D333434CB78498F1 /* ASOBounceButtonViewDelegate.h */; };
+		555F5E958E8B40169257A4DE /* ASOBounceButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7C85F2C45F4B49AB4022C4 /* ASOBounceButtonView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		58C44B9296FA4ABDB91CFD10 /* ASOBounceButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E429F2EDA4248A6BDAFC451 /* ASOBounceButtonView.h */; };
+		5CE7695879834BFF81C067E5 /* ASOBounceButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E429F2EDA4248A6BDAFC451 /* ASOBounceButtonView.h */; };
+		5F16F5B0FE6443BDB287FC3C /* ASOBounceButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E429F2EDA4248A6BDAFC451 /* ASOBounceButtonView.h */; };
+		82ED0F4FADC1455598D8CE39 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F99CFE952341CE9C445B8D /* Pods-dummy.m */; };
+		8768389B30894FC08547E9ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED5B9C9DAAB4B54A96C1824 /* Foundation.framework */; };
+		910565E6B5F1489BBF0B26D9 /* ASOBounceButtonViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 846CC749D333434CB78498F1 /* ASOBounceButtonViewDelegate.h */; };
+		9B226C2B926445E09A15A263 /* ASOBounceButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7C85F2C45F4B49AB4022C4 /* ASOBounceButtonView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		9B9281411B11420994B17ACA /* libPods-ASOAnimatedButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E809EC798BE4A97AF18C39C /* libPods-ASOAnimatedButton.a */; };
+		9C2BD351339C441387CD7182 /* ASOTwoStateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3480266B08FD4DB8947C50A0 /* ASOTwoStateButton.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A1634313895A4490BD4B86E9 /* ASOTwoStateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3480266B08FD4DB8947C50A0 /* ASOTwoStateButton.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		ADBA14E31F624C8E8D27EB7F /* Pods-TwoStateButtonExample-ASOAnimatedButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914EE1A415C466F923B14A5 /* Pods-TwoStateButtonExample-ASOAnimatedButton-dummy.m */; };
+		B11A1C6E9DD54B8FB2C1939A /* ASOTwoStateButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BFA8EF85ED24F3A8F5D1802 /* ASOTwoStateButton.h */; };
+		BE735D062DF94230972924B3 /* ASOBounceButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7C85F2C45F4B49AB4022C4 /* ASOBounceButtonView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C076E4AD6A964CC1AAE3C620 /* ASOTwoStateButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BFA8EF85ED24F3A8F5D1802 /* ASOTwoStateButton.h */; };
+		C7634C717176491B83AED45E /* Pods-ASOAnimatedButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62087F18A66849439015036A /* Pods-ASOAnimatedButton-dummy.m */; };
+		C878D5A59E38452995FFEA50 /* ASOTwoStateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3480266B08FD4DB8947C50A0 /* ASOTwoStateButton.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		CA04C784D0904C6280484B73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED5B9C9DAAB4B54A96C1824 /* Foundation.framework */; };
+		CA1D5F6173734B59AF5F6C47 /* ASOTwoStateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3480266B08FD4DB8947C50A0 /* ASOTwoStateButton.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		D090536F6BE943E2A190FB6F /* ASOBounceButtonViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 846CC749D333434CB78498F1 /* ASOBounceButtonViewDelegate.h */; };
+		D3AF256915A7445E9AB300BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED5B9C9DAAB4B54A96C1824 /* Foundation.framework */; };
+		E93F483A1B034E5FAC0998B0 /* ASOBounceButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7C85F2C45F4B49AB4022C4 /* ASOBounceButtonView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		EBDF693EDD4B4DCEA0DA08B6 /* Pods-TwoStateButtonExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6F6D757ECD482E9783332A /* Pods-TwoStateButtonExample-dummy.m */; };
+		F7B3BCD8B7B04DC6A1D7D587 /* ASOTwoStateButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BFA8EF85ED24F3A8F5D1802 /* ASOTwoStateButton.h */; };
+		FEF9C9424EBF4989B49EDCBD /* ASOBounceButtonViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 846CC749D333434CB78498F1 /* ASOBounceButtonViewDelegate.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E7B5941FD0947BF9C9EE45D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60447E2F91504DCB9C86D2BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B0B68251C045B3B9462592;
+			remoteInfo = "Pods-ASOAnimatedButton";
+		};
+		E58D338360E6406DBC6B970A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60447E2F91504DCB9C86D2BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CC732C7FEAB498492B66EBA;
+			remoteInfo = "Pods-TwoStateButtonExample-ASOAnimatedButton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E5C9D3DA5994123ACDA5A8C /* Pods-TwoStateButtonExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwoStateButtonExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0E8A92E46D674FB1BD0886AE /* Pods-ASOAnimatedButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASOAnimatedButton.xcconfig"; sourceTree = "<group>"; };
+		1D6F6D757ECD482E9783332A /* Pods-TwoStateButtonExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwoStateButtonExample-dummy.m"; sourceTree = "<group>"; };
+		2DFD5DFB813741F99B27B127 /* Pods-ASOAnimatedButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASOAnimatedButton-Private.xcconfig"; sourceTree = "<group>"; };
+		2E809EC798BE4A97AF18C39C /* libPods-ASOAnimatedButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASOAnimatedButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3480266B08FD4DB8947C50A0 /* ASOTwoStateButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASOTwoStateButton.m; path = Classes/ios/TwoStateButton/ASOTwoStateButton.m; sourceTree = "<group>"; };
+		358378727EA544DB87ED9C40 /* Pods-TwoStateButtonExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwoStateButtonExample-resources.sh"; sourceTree = "<group>"; };
+		3818EB6341B64F06A630C52A /* libPods-TwoStateButtonExample-ASOAnimatedButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TwoStateButtonExample-ASOAnimatedButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4914EE1A415C466F923B14A5 /* Pods-TwoStateButtonExample-ASOAnimatedButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwoStateButtonExample-ASOAnimatedButton-dummy.m"; sourceTree = "<group>"; };
+		4A57CE977EF842E0A03BCF73 /* libPods-TwoStateButtonExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TwoStateButtonExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62087F18A66849439015036A /* Pods-ASOAnimatedButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASOAnimatedButton-dummy.m"; sourceTree = "<group>"; };
+		6BFA8EF85ED24F3A8F5D1802 /* ASOTwoStateButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASOTwoStateButton.h; path = Classes/ios/TwoStateButton/ASOTwoStateButton.h; sourceTree = "<group>"; };
+		6E429F2EDA4248A6BDAFC451 /* ASOBounceButtonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASOBounceButtonView.h; path = Classes/ios/BounceButton/ASOBounceButtonView.h; sourceTree = "<group>"; };
+		6F7C85F2C45F4B49AB4022C4 /* ASOBounceButtonView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASOBounceButtonView.m; path = Classes/ios/BounceButton/ASOBounceButtonView.m; sourceTree = "<group>"; };
+		78EC4D50B9794311AEE0858E /* Pods-TwoStateButtonExample-ASOAnimatedButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwoStateButtonExample-ASOAnimatedButton-prefix.pch"; sourceTree = "<group>"; };
+		7DDA9E085EE045FABBA0AEE2 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		846CC749D333434CB78498F1 /* ASOBounceButtonViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASOBounceButtonViewDelegate.h; path = Classes/ios/BounceButton/ASOBounceButtonViewDelegate.h; sourceTree = "<group>"; };
+		90CAE358E3E346E68AE2C099 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A834CF787DA74962A7690377 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		AF88C7F1652E4DC2934A1636 /* Pods-TwoStateButtonExample.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwoStateButtonExample.xcconfig"; sourceTree = "<group>"; };
+		B4D6ADAD9B0C4323928D3E22 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		BA74B98181AB47A583C28378 /* Pods-ASOAnimatedButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASOAnimatedButton-prefix.pch"; sourceTree = "<group>"; };
+		BED5B9C9DAAB4B54A96C1824 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C0233A791D734592A90C32EA /* Pods-TwoStateButtonExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwoStateButtonExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3220B87AED84586A4788FA2 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C66A7B93868642FF880BB530 /* Pods-TwoStateButtonExample-ASOAnimatedButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwoStateButtonExample-ASOAnimatedButton-Private.xcconfig"; sourceTree = "<group>"; };
+		D7D379D98A5F4FEE9C76D690 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = "<group>"; };
+		E0F99CFE952341CE9C445B8D /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		E6799ED73F56495F83B2A0D3 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5CB46E0E08D4DA0A5AC1DDA /* Pods-TwoStateButtonExample-ASOAnimatedButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwoStateButtonExample-ASOAnimatedButton.xcconfig"; sourceTree = "<group>"; };
+		F845E44C0B5547CF9F968EBC /* Pods-TwoStateButtonExample-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwoStateButtonExample-environment.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33DF45CDF7724FA9BCF0D084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8768389B30894FC08547E9ED /* Foundation.framework in Frameworks */,
+				16E4E38BBCEE49EAA6C7D6B7 /* libPods-TwoStateButtonExample-ASOAnimatedButton.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7846E626B3F645C3A6B35CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA04C784D0904C6280484B73 /* Foundation.framework in Frameworks */,
+				9B9281411B11420994B17ACA /* libPods-ASOAnimatedButton.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B840E96843944C1EA82E1E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3AF256915A7445E9AB300BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC3005A076A4F7FB9188111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2172F72E564D7ABBC2972F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0231D8882E0D4433A483C7DA /* BounceButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BounceButton;
+			sourceTree = "<group>";
+		};
+		115EEB45BBAF4C5FB1DEB44D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BED5B9C9DAAB4B54A96C1824 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		144176F7468F466BA6A049E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				115EEB45BBAF4C5FB1DEB44D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		372F73D72BE24DDEB946E4AD /* ASOAnimatedButton */ = {
+			isa = PBXGroup;
+			children = (
+				6E429F2EDA4248A6BDAFC451 /* ASOBounceButtonView.h */,
+				6F7C85F2C45F4B49AB4022C4 /* ASOBounceButtonView.m */,
+				846CC749D333434CB78498F1 /* ASOBounceButtonViewDelegate.h */,
+				6BFA8EF85ED24F3A8F5D1802 /* ASOTwoStateButton.h */,
+				3480266B08FD4DB8947C50A0 /* ASOTwoStateButton.m */,
+				0231D8882E0D4433A483C7DA /* BounceButton */,
+				526F2314919F4DECBBE78027 /* Support Files */,
+				78A603AB45514A6B9DD0306D /* TwoStateButton */,
+			);
+			name = ASOAnimatedButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		526F2314919F4DECBBE78027 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E8A92E46D674FB1BD0886AE /* Pods-ASOAnimatedButton.xcconfig */,
+				2DFD5DFB813741F99B27B127 /* Pods-ASOAnimatedButton-Private.xcconfig */,
+				62087F18A66849439015036A /* Pods-ASOAnimatedButton-dummy.m */,
+				BA74B98181AB47A583C28378 /* Pods-ASOAnimatedButton-prefix.pch */,
+				F5CB46E0E08D4DA0A5AC1DDA /* Pods-TwoStateButtonExample-ASOAnimatedButton.xcconfig */,
+				C66A7B93868642FF880BB530 /* Pods-TwoStateButtonExample-ASOAnimatedButton-Private.xcconfig */,
+				4914EE1A415C466F923B14A5 /* Pods-TwoStateButtonExample-ASOAnimatedButton-dummy.m */,
+				78EC4D50B9794311AEE0858E /* Pods-TwoStateButtonExample-ASOAnimatedButton-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		5AE64C3950C2417AAB5AB18E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				372F73D72BE24DDEB946E4AD /* ASOAnimatedButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		78A603AB45514A6B9DD0306D /* TwoStateButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TwoStateButton;
+			sourceTree = "<group>";
+		};
+		9508FF0FF9BD4219A01314D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7D379D98A5F4FEE9C76D690 /* Pods.xcconfig */,
+				7DDA9E085EE045FABBA0AEE2 /* Pods-acknowledgements.markdown */,
+				E6799ED73F56495F83B2A0D3 /* Pods-acknowledgements.plist */,
+				E0F99CFE952341CE9C445B8D /* Pods-dummy.m */,
+				B4D6ADAD9B0C4323928D3E22 /* Pods-environment.h */,
+				A834CF787DA74962A7690377 /* Pods-resources.sh */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB8D414756C2451DA5B48176 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90CAE358E3E346E68AE2C099 /* libPods.a */,
+				2E809EC798BE4A97AF18C39C /* libPods-ASOAnimatedButton.a */,
+				4A57CE977EF842E0A03BCF73 /* libPods-TwoStateButtonExample.a */,
+				3818EB6341B64F06A630C52A /* libPods-TwoStateButtonExample-ASOAnimatedButton.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE0A7114C7D7410C96A28845 /* Pods-TwoStateButtonExample */ = {
+			isa = PBXGroup;
+			children = (
+				AF88C7F1652E4DC2934A1636 /* Pods-TwoStateButtonExample.xcconfig */,
+				0E5C9D3DA5994123ACDA5A8C /* Pods-TwoStateButtonExample-acknowledgements.markdown */,
+				C0233A791D734592A90C32EA /* Pods-TwoStateButtonExample-acknowledgements.plist */,
+				1D6F6D757ECD482E9783332A /* Pods-TwoStateButtonExample-dummy.m */,
+				F845E44C0B5547CF9F968EBC /* Pods-TwoStateButtonExample-environment.h */,
+				358378727EA544DB87ED9C40 /* Pods-TwoStateButtonExample-resources.sh */,
+			);
+			name = "Pods-TwoStateButtonExample";
+			sourceTree = "<group>";
+		};
+		E8EFD0EE1DF64816B2455DAA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9508FF0FF9BD4219A01314D8 /* Pods */,
+				DE0A7114C7D7410C96A28845 /* Pods-TwoStateButtonExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F4F98F310DD348B68617099A = {
+			isa = PBXGroup;
+			children = (
+				C3220B87AED84586A4788FA2 /* Podfile */,
+				5AE64C3950C2417AAB5AB18E /* Development Pods */,
+				144176F7468F466BA6A049E7 /* Frameworks */,
+				DB8D414756C2451DA5B48176 /* Products */,
+				E8EFD0EE1DF64816B2455DAA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		88300899CE5B4382AB46029C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209B367D4EF04B5CB96214AE /* ASOBounceButtonView.h in Headers */,
+				5CE7695879834BFF81C067E5 /* ASOBounceButtonView.h in Headers */,
+				FEF9C9424EBF4989B49EDCBD /* ASOBounceButtonViewDelegate.h in Headers */,
+				D090536F6BE943E2A190FB6F /* ASOBounceButtonViewDelegate.h in Headers */,
+				B11A1C6E9DD54B8FB2C1939A /* ASOTwoStateButton.h in Headers */,
+				F7B3BCD8B7B04DC6A1D7D587 /* ASOTwoStateButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC22399E5E9F4555A0EE5CBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F16F5B0FE6443BDB287FC3C /* ASOBounceButtonView.h in Headers */,
+				58C44B9296FA4ABDB91CFD10 /* ASOBounceButtonView.h in Headers */,
+				421E0A54E17A4C28B90488F4 /* ASOBounceButtonViewDelegate.h in Headers */,
+				910565E6B5F1489BBF0B26D9 /* ASOBounceButtonViewDelegate.h in Headers */,
+				C076E4AD6A964CC1AAE3C620 /* ASOTwoStateButton.h in Headers */,
+				08DB995EE3304E18BE066CE6 /* ASOTwoStateButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04B0B68251C045B3B9462592 /* Pods-ASOAnimatedButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0148932BAECA45A7BF81ACC4 /* Build configuration list for PBXNativeTarget "Pods-ASOAnimatedButton" */;
+			buildPhases = (
+				0B3B84B5F4DE4C2B84F4E5F4 /* Sources */,
+				EEC3005A076A4F7FB9188111 /* Frameworks */,
+				88300899CE5B4382AB46029C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ASOAnimatedButton";
+			productName = "Pods-ASOAnimatedButton";
+			productReference = 2E809EC798BE4A97AF18C39C /* libPods-ASOAnimatedButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2CC732C7FEAB498492B66EBA /* Pods-TwoStateButtonExample-ASOAnimatedButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0D46281E7F41F28FFC3E23 /* Build configuration list for PBXNativeTarget "Pods-TwoStateButtonExample-ASOAnimatedButton" */;
+			buildPhases = (
+				2DCC780C901C4FDEB7AAE1A4 /* Sources */,
+				B840E96843944C1EA82E1E8C /* Frameworks */,
+				AC22399E5E9F4555A0EE5CBA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TwoStateButtonExample-ASOAnimatedButton";
+			productName = "Pods-TwoStateButtonExample-ASOAnimatedButton";
+			productReference = 3818EB6341B64F06A630C52A /* libPods-TwoStateButtonExample-ASOAnimatedButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2DA5963B08D148039F648F4A /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0B3A05F7E949288CEBEA51 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				02EB8BAE31EE41E6AE190B8A /* Sources */,
+				7846E626B3F645C3A6B35CD9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B3FE26F91B84FFBA73FB01A /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 90CAE358E3E346E68AE2C099 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B98BD86E67DD46BE92C2F453 /* Pods-TwoStateButtonExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D750D0495F4E41FA976B5117 /* Build configuration list for PBXNativeTarget "Pods-TwoStateButtonExample" */;
+			buildPhases = (
+				573894FDB4C1490C96FD9D84 /* Sources */,
+				33DF45CDF7724FA9BCF0D084 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB13FD249C25493D9678D0C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-TwoStateButtonExample";
+			productName = "Pods-TwoStateButtonExample";
+			productReference = 4A57CE977EF842E0A03BCF73 /* libPods-TwoStateButtonExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60447E2F91504DCB9C86D2BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 8726B326865E4D369C8C871E /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4F98F310DD348B68617099A;
+			productRefGroup = DB8D414756C2451DA5B48176 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DA5963B08D148039F648F4A /* Pods */,
+				04B0B68251C045B3B9462592 /* Pods-ASOAnimatedButton */,
+				B98BD86E67DD46BE92C2F453 /* Pods-TwoStateButtonExample */,
+				2CC732C7FEAB498492B66EBA /* Pods-TwoStateButtonExample-ASOAnimatedButton */,
+				5E84645E18F44C2F00E42510 /* Documentation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E84646218F44C3600E42510 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#appledoc Xcode script\n# Start constants\ncompany=\"Soedibjo\";\ncompanyID=\"com.soedibjo\";\ncompanyURL=\"http://agusso.github.io/ASOAnimatedButton\";\ntarget=\"iphoneos\";\n#target=\"macosx\";\noutputPath=\"~/help\";\n# End constants\n/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}\" \\\n--output \"${outputPath}\" \\\n--publish-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n\"${PROJECT_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02EB8BAE31EE41E6AE190B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82ED0F4FADC1455598D8CE39 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B3B84B5F4DE4C2B84F4E5F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93F483A1B034E5FAC0998B0 /* ASOBounceButtonView.m in Sources */,
+				555F5E958E8B40169257A4DE /* ASOBounceButtonView.m in Sources */,
+				9C2BD351339C441387CD7182 /* ASOTwoStateButton.m in Sources */,
+				A1634313895A4490BD4B86E9 /* ASOTwoStateButton.m in Sources */,
+				C7634C717176491B83AED45E /* Pods-ASOAnimatedButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DCC780C901C4FDEB7AAE1A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE735D062DF94230972924B3 /* ASOBounceButtonView.m in Sources */,
+				9B226C2B926445E09A15A263 /* ASOBounceButtonView.m in Sources */,
+				CA1D5F6173734B59AF5F6C47 /* ASOTwoStateButton.m in Sources */,
+				C878D5A59E38452995FFEA50 /* ASOTwoStateButton.m in Sources */,
+				ADBA14E31F624C8E8D27EB7F /* Pods-TwoStateButtonExample-ASOAnimatedButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573894FDB4C1490C96FD9D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDF693EDD4B4DCEA0DA08B6 /* Pods-TwoStateButtonExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B3FE26F91B84FFBA73FB01A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B0B68251C045B3B9462592 /* Pods-ASOAnimatedButton */;
+			targetProxy = 5E7B5941FD0947BF9C9EE45D /* PBXContainerItemProxy */;
+		};
+		CB13FD249C25493D9678D0C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CC732C7FEAB498492B66EBA /* Pods-TwoStateButtonExample-ASOAnimatedButton */;
+			targetProxy = E58D338360E6406DBC6B970A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01381CB4969F42CAA01CE1F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7D379D98A5F4FEE9C76D690 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		450845466C014879A2BF7A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C66A7B93868642FF880BB530 /* Pods-TwoStateButtonExample-ASOAnimatedButton-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-TwoStateButtonExample-ASOAnimatedButton-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4ACF3A56D44D44AD84E7CAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C66A7B93868642FF880BB530 /* Pods-TwoStateButtonExample-ASOAnimatedButton-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-TwoStateButtonExample-ASOAnimatedButton-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E84645F18F44C2F00E42510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E84646018F44C2F00E42510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BD9C7C9DF794F36A2E44F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		8A3D98DE72234CF6AF29DA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DFD5DFB813741F99B27B127 /* Pods-ASOAnimatedButton-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-ASOAnimatedButton-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D71F4B61053B45818B88A356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7D379D98A5F4FEE9C76D690 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E3A908EF941347DFA217E549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED31BC78C005458D9E5A9146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF88C7F1652E4DC2934A1636 /* Pods-TwoStateButtonExample.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5DE40E41B6846588AA62B1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF88C7F1652E4DC2934A1636 /* Pods-TwoStateButtonExample.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FC461367648B43E5A74D7F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DFD5DFB813741F99B27B127 /* Pods-ASOAnimatedButton-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-ASOAnimatedButton-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0148932BAECA45A7BF81ACC4 /* Build configuration list for PBXNativeTarget "Pods-ASOAnimatedButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC461367648B43E5A74D7F5F /* Debug */,
+				8A3D98DE72234CF6AF29DA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A0D46281E7F41F28FFC3E23 /* Build configuration list for PBXNativeTarget "Pods-TwoStateButtonExample-ASOAnimatedButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450845466C014879A2BF7A70 /* Debug */,
+				4ACF3A56D44D44AD84E7CAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E84646118F44C2F00E42510 /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E84645F18F44C2F00E42510 /* Debug */,
+				5E84646018F44C2F00E42510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8726B326865E4D369C8C871E /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BD9C7C9DF794F36A2E44F63 /* Debug */,
+				E3A908EF941347DFA217E549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D750D0495F4E41FA976B5117 /* Build configuration list for PBXNativeTarget "Pods-TwoStateButtonExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5DE40E41B6846588AA62B1E /* Debug */,
+				ED31BC78C005458D9E5A9146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0B3A05F7E949288CEBEA51 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71F4B61053B45818B88A356 /* Debug */,
+				01381CB4969F42CAA01CE1F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60447E2F91504DCB9C86D2BB /* Project object */;
+}
