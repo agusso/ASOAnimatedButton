@@ -4,7 +4,7 @@
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="ASOAnimatedButton : ASOAnimatedButton is a storyboard-friendly library to animate button to have a two-state or bounce effect. Refer to its project examples for its various implementations." />
+    <meta name="description" content="ASOAnimatedButton : ASOAnimatedButton is a storyboard-friendly library to animate button to have a two-state or bounce effect." />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
@@ -19,7 +19,7 @@
           <a id="forkme_banner" href="https://github.com/agusso/ASOAnimatedButton">View on GitHub</a>
 
           <h1 id="project_title">ASOAnimatedButton</h1>
-          <h2 id="project_tagline">ASOAnimatedButton is a storyboard-friendly library to animate button to have a two-state or bounce effect. Refer to its project examples for its various implementations.</h2>
+          <h2 id="project_tagline">ASOAnimatedButton is a storyboard-friendly library to animate button to have a two-state or bounce effect.</h2>
 
             <section id="downloads">
               <a class="zip_download_link" href="https://github.com/agusso/ASOAnimatedButton/zipball/master">Download this project as a .zip file</a>
@@ -32,84 +32,60 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h1>
-<a name="twostatebuttonexample" class="anchor" href="#twostatebuttonexample"><span class="octicon octicon-link"></span></a>TwoStateButtonExample</h1>
+<a name="asoanimatedbutton" class="anchor" href="#asoanimatedbutton"><span class="octicon octicon-link"></span></a>ASOAnimatedButton</h1>
 
-<p>This App shows a toggle button which change its image every time it is tapped. A fade-out effect is set between its state changes.</p>
+<p><a href="https://github.com/agusso/ASOAnimatedButton/releases/tag/1.0.1"><img src="http://cocoapod-badges.herokuapp.com/v/ASOAnimatedButton/badge.png" alt="Version"></a>
+<a href="http://www.apple.com/uk/ios/"><img src="http://cocoapod-badges.herokuapp.com/p/ASOAnimatedButton/badge.png" alt="Platform"></a></p>
 
-<p><img src="https://raw.githubusercontent.com/wiki/agusso/ASOAnimatedButton/Assets/ASOTwoStateButton-preview.gif" alt="ASOTwoStateButton animation preview"></p>
+<p><code>ASOAnimatedButton</code> is an animated button which can be easily configured using Storyboard. There are two effects supported by this library, i.e. bounce-button and two-state effects.
+One of the possible implementations of those effects is it can be used to build a menu buttons such as the one implemented in Android version of Tumblr App.</p>
+
+<p>Refer to the example project for its various implementations.</p>
+
+<p><img src="https://raw.githubusercontent.com/wiki/agusso/ASOAnimatedButton/Assets/ASOAnimatedButton-preview-full.gif" alt="Animation Preview"></p>
 
 <h2>
-<a name="how-to" class="anchor" href="#how-to"><span class="octicon octicon-link"></span></a>How To</h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
 
-<h3>
-<a name="integrate-the-library" class="anchor" href="#integrate-the-library"><span class="octicon octicon-link"></span></a>Integrate the library</h3>
+<p>To run the example project; clone the repo, and run <code>pod install</code> from the Example directory first. Then launch it from <code>Example.xcworkspace</code>.</p>
 
-<p>Add these lines in the Podfile:</p>
+<h2>
+<a name="requirements" class="anchor" href="#requirements"><span class="octicon octicon-link"></span></a>Requirements</h2>
+
+<ul>
+<li>iOS SDK 7 or later</li>
+<li>Xcode 5 or later</li>
+</ul><h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p><code>ASOAnimatedButton</code> is available through <a href="http://cocoapods.org">CocoaPods</a>, to install
+it simply add the following line to your Podfile:</p>
 
 <div class="highlight highlight-ruby"><pre><span class="n">platform</span> <span class="ss">:ios</span><span class="p">,</span> <span class="s1">'7.0'</span>
 <span class="n">pod</span> <span class="s1">'ASOAnimatedButton'</span>
 </pre></div>
 
-<p>Or add these lines if only the <code>ASOTwoStateButton</code> library is going to be used in the project:</p>
-
-<div class="highlight highlight-ruby"><pre><span class="n">platform</span> <span class="ss">:ios</span><span class="p">,</span> <span class="s1">'7.0'</span>
-<span class="n">pod</span> <span class="s1">'ASOAnimatedButton/TwoStateButton'</span>
-</pre></div>
-
-<h3>
-<a name="storyboard" class="anchor" href="#storyboard"><span class="octicon octicon-link"></span></a>Storyboard</h3>
-
-<p>Define each image name as values of <code>OnStateImageName</code> and <code>OffStateImageName</code> keys in <code>User Defined Runtime Attributes</code> of the ASOTwoStateButton object.</p>
-
-<p><img src="https://raw.githubusercontent.com/wiki/agusso/ASOAnimatedButton/Assets/ASOTwoStateButton-storyboard.png" alt="ASOTwoStateButton storyboard preview"></p>
-
-<h3>
-<a name="implementation" class="anchor" href="#implementation"><span class="octicon octicon-link"></span></a>Implementation</h3>
-
-<p>Initialise the 'Two-State Button'</p>
-
-<div class="highlight highlight-objectivec"><pre><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">viewDidLoad</span>
-<span class="p">{</span>
-    <span class="p">[</span><span class="n">super</span> <span class="n">viewDidLoad</span><span class="p">];</span>
-    <span class="c1">// Do any additional setup after loading the view, typically from a nib.</span>
-
-    <span class="c1">// Set the 'Two-State Button'</span>
-    <span class="p">[</span><span class="n">self</span><span class="p">.</span><span class="n">twoStateButton</span> <span class="n">initAnimationWithFadeEffectEnabled</span><span class="o">:</span><span class="nb">YES</span><span class="p">];</span> <span class="c1">// Set to 'NO' to disable Fade effect between its two-state transition</span>
-<span class="p">}</span>
-</pre></div>
-
-<p>Add custom actions for each state</p>
-
-<div class="highlight highlight-objectivec"><pre><span class="k">-</span> <span class="p">(</span><span class="kt">IBAction</span><span class="p">)</span><span class="nf">twoStateButtonAction:</span><span class="p">(</span><span class="kt">id</span><span class="p">)</span><span class="nv">sender</span> <span class="p">{</span>
-    <span class="k">if</span> <span class="p">([</span><span class="n">sender</span> <span class="n">isOn</span><span class="p">])</span> <span class="p">{</span>
-        <span class="c1">// Add actions related to the On-State</span>
-
-    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-       <span class="c1">// Add actions related to the Off-State</span>
-
-    <span class="p">}</span>
-<span class="p">}</span>
-</pre></div>
+<p>Or 'Add File' in the <code>Classes/iOS/</code> directory from this repo into your project.</p>
 
 <h2>
-<a name="controls" class="anchor" href="#controls"><span class="octicon octicon-link"></span></a>Controls</h2>
+<a name="documentation" class="anchor" href="#documentation"><span class="octicon octicon-link"></span></a>Documentation</h2>
 
-<p>Control whether fade effect is enabled between state changing</p>
+<h3>
+<a name="sample-code" class="anchor" href="#sample-code"><span class="octicon octicon-link"></span></a>Sample Code</h3>
 
-<div class="highlight highlight-objectivec"><pre><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">)</span> <span class="kt">BOOL</span> <span class="n">isFadeEffectEnabled</span><span class="p">;</span>
-</pre></div>
+<p>The easiest way to learn how to use <code>ASOAnimatedButton</code> is by going through the example apps in  <code>Examples.xcworkspace</code> and follow the quick start guide in each README of those examples.</p>
 
-<p>Control the effect duration between state changing</p>
-
-<div class="highlight highlight-objectivec"><pre><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSTimeInterval</span> <span class="n">effectDuration</span><span class="p">;</span>
-</pre></div>
-
-<h2>
+<ul>
+<li>
+<a href="Example/BounceButtonExample/">BounceButtonExample</a>. Several examples on how to implement each available animation style of 'bounce effect' on buttons.</li>
+<li>
+<a href="Example/TwoStateButtonExample/">TwoStateButtonExample</a>. This is a an example on how to implement 'two-state effect' on a button.</li>
+</ul><h2>
 <a name="getting-help" class="anchor" href="#getting-help"><span class="octicon octicon-link"></span></a>Getting Help</h2>
 
-<p>If you need help using <code>ASOTwoStateButton</code>, please post a question on <a href="http://stackoverflow.com/questions/ask?tags=asoanimatedbutton">StackOverflow with the "ASOAnimatedButton" tag</a>.</p>
+<p>If you need help using <code>ASOAnimatedButton</code>, please post a question on <a href="http://stackoverflow.com/questions/ask?tags=asoanimatedbutton">StackOverflow with the "ASOAnimatedButton" tag</a>.</p>
 
-<p>If you think you found a problem with <code>ASOTwoStateButton</code>, please <a href="https://github.com/agusso/ASOAnimatedButton/issues">post an issue</a>. A sample project or fork of any of the examples demonstrating the problem will be helpful.</p>
+<p>If you think you found a problem with <code>ASOAnimatedButton</code>, please <a href="https://github.com/agusso/ASOAnimatedButton/issues">post an issue</a>. A sample project or fork of any of the examples demonstrating the problem will be helpful.</p>
 
 <h2>
 <a name="author" class="anchor" href="#author"><span class="octicon octicon-link"></span></a>Author</h2>
