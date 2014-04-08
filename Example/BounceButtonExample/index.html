@@ -1,0 +1,118 @@
+<h1>BounceButtonExample</h1>
+<p>This App shows the implementation of buttons with bounce effect as menu items.</p>
+<p><img src="https://raw.githubusercontent.com/wiki/agusso/ASOAnimatedButton/Assets/ASOBounceButton-expand-preview.gif" alt="ASOBounceButton with &#39;Expand&#39; style animation preview"></p>
+<h2>How To</h2>
+<h3>Integrate the library</h3>
+<p>Add these lines in the Podfile:</p>
+<pre><code class="lang-ruby">platform :ios, &#39;7.0&#39;
+pod &#39;ASOAnimatedButton&#39;</code></pre>
+<h3>Storyboard</h3>
+<h4>Menu Button with Two-State effect</h4>
+<p>Define each image name as values of <code>OnStateImageName</code> and <code>OffStateImageName</code> keys in <code>User Defined Runtime Attributes</code> of the <code>ASOTwoStateButton</code> object.</p>
+<p><img src="https://raw.githubusercontent.com/wiki/agusso/ASOAnimatedButton/Assets/ASOBounceButton-expand-menu-storyboard.png" alt="ASOBounceButton &#39;Expand&#39; menu storyboard preview"></p>
+<h4>Menu Item View</h4>
+<p>Add a stand-alone UIViewController object in Storyboard with your given ID. In this example we define its Storyboard ID as <code>ExpandMenu</code>:</p>
+<p><img src="https://raw.githubusercontent.com/wiki/agusso/ASOAnimatedButton/Assets/ASOBounceButton-expand-menuitem-storyboard.png" alt="ASOBounceButton &#39;Expand&#39; menu item storyboard preview"></p>
+<p>Create <code>BounceButtonView</code> Class as a subclass of ASOBounceButtonView and define it the Class of <code>Menu Item View</code>:  </p>
+<p><img src="https://raw.githubusercontent.com/wiki/agusso/ASOAnimatedButton/Assets/ASOBounceButton-expand-menuitembuttons-storyboard.png" alt="ASOBounceButton &#39;Expand&#39; menu item storyboard preview"></p>
+<p>Set the outlet of all the buttons defined on <code>Menu Item View</code> to the <code>BounceButtonView</code> Class:</p>
+<pre><code class="lang-objectivec">#import &quot;ASOBounceButtonView.h&quot;
+
+@interface BounceButtonView : ASOBounceButtonView
+
+@property (weak, nonatomic) IBOutlet UIButton *menuItem1;
+@property (weak, nonatomic) IBOutlet UIButton *menuItem2;
+@property (weak, nonatomic) IBOutlet UIButton *menuItem3;
+@property (weak, nonatomic) IBOutlet UIButton *menuItem4;
+
+@end</code></pre>
+<h3>Implementation</h3>
+<p>Set the designated UIViewController as the delegate of <code>ASOBounceButtonView</code> Class</p>
+<pre><code class="lang-objectivec">#import &lt;UIKit/UIKit.h&gt;
+#import &quot;ASOTwoStateButton.h&quot;
+#import &quot;ASOBounceButtonViewDelegate.h&quot;
+#import &quot;BounceButtonView.h&quot;
+
+@interface ExpandStyleMenuViewController : UIViewController &lt;ASOBounceButtonViewDelegate&gt;
+
+@property (strong, nonatomic) IBOutlet ASOTwoStateButton *menuButton;
+@property (strong, nonatomic) BounceButtonView *menuItemView;
+
+- (IBAction)menuButtonAction:(id)sender;</code></pre>
+<h4>Set &#39;Two-State&#39; effect to the <code>Menu Button</code>:</h4>
+<pre><code class="lang-objectivec">[self.menuButton initAnimationWithFadeEffectEnabled:YES]; // Set to &#39;NO&#39; to disable Fade effect between its two-state transition</code></pre>
+<h4>Acquire the <code>Menu Item View</code> from Storyboard:</h4>
+<pre><code class="lang-objectivec">// Get the &#39;menu item view&#39; from storyboard
+UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@&quot;Main_iPhone&quot; bundle:nil];
+UIViewController *menuItemsVC = (UIViewController *)[mainStoryboard instantiateViewControllerWithIdentifier:@&quot;ExpandMenu&quot;];
+self.menuItemView = (BounceButtonView *)menuItemsVC.view;</code></pre>
+<h4>Add buttons as bounce buttons to the <code>Menu Item View</code></h4>
+<pre><code class="lang-objectivec">NSArray *arrMenuItemButtons = [[NSArray alloc] initWithObjects:self.menuItemView.menuItem1,
+                                self.menuItemView.menuItem2,
+                                self.menuItemView.menuItem3,
+                                self.menuItemView.menuItem4,
+                                nil]; // Add all of the defined &#39;menu item button&#39; to &#39;menu item view&#39;
+[self.menuItemView addBounceButtons:arrMenuItemButtons];</code></pre>
+<h4>Set the animation starting point</h4>
+<p>The animation starting point is the <code>Menu Button</code> position. Send the <code>Menu Button</code> frame property to the <code>Menu Item View</code> on <code>viewDidAppear</code> event and every time there is a change in device orientation:</p>
+<pre><code class="lang-objectivec">- (void)viewDidAppear:(BOOL)animated
+{
+    // Tell &#39;menu button&#39; position to &#39;menu item view&#39;
+    [self.menuItemView setAnimationStartFromHere:self.menuButton.frame];
+}
+
+- (void)willAnimateRotationToInterfaceOrientation:
+(UIInterfaceOrientation)toInterfaceOrientation
+                                         duration:(NSTimeInterval)duration
+{
+    // Update &#39;menu button&#39; position to &#39;menu item view&#39; everytime there is a change in device orientation
+    [self.menuItemView setAnimationStartFromHere:self.menuButton.frame];
+}</code></pre>
+<h4>Expand and collapsed the <code>Menu Item View</code></h4>
+<pre><code class="lang-objectivec">- (IBAction)menuButtonAction:(id)sender
+{
+    if ([sender isOn]) {
+        // Show &#39;menu item view&#39; and expand its &#39;menu item button&#39;
+        [self.menuButton addCustomView:self.menuItemView];
+        [self.menuItemView expandWithAnimationStyle:ASOAnimationStyleExpand];
+    }
+    else {
+        // Collapse all &#39;menu item button&#39; and remove &#39;menu item view&#39;
+        [self.menuItemView collapseWithAnimationStyle:ASOAnimationStyleExpand];
+        [self.menuButton removeCustomView:self.menuItemView interval:[self.menuItemView.collapsedViewDuration doubleValue]];
+    }
+}</code></pre>
+<h4>Add custom actions in the `Menu Item View&#39; delegate method</h4>
+<pre><code class="lang-objectivec">- (void)didSelectBounceButtonAtIndex:(NSUInteger)index
+{
+    // Collapse all &#39;menu item button&#39; and remove &#39;menu item view&#39; once a menu item is selected
+    [self.menuButton sendActionsForControlEvents:UIControlEventTouchUpInside];
+
+    // Add your custom action for each selected &#39;menu item button&#39; here
+    NSLog(@&quot;Menu Item %x is selected&quot;, (short)index];
+
+}</code></pre>
+<h2>Controls</h2>
+<p>Control the speed of each animated button:</p>
+<pre><code class="lang-objectivec">@property (strong, nonatomic) NSNumber *speed;</code></pre>
+<p>Control the speed of fade-out effect when the view is collapsed:</p>
+<pre><code class="lang-objectivec">@property (strong, nonatomic) NSNumber *fadeOutDuration;</code></pre>
+<p>Control the bouncing distance of each animated button:</p>
+<pre><code class="lang-objectivec">@property (strong, nonatomic) NSNumber *bouncingDistance;</code></pre>
+<p>Control which animation style to be used</p>
+<pre><code class="lang-objectivec">@property (nonatomic) ASOAnimationStyle animationStyle;</code></pre>
+<h2>Animation Style</h2>
+<p>There three available Animation Style:</p>
+<p><code>ASOAnimationStyleExpand</code> provides an effect of growing where buttons movement follow the path of other buttons defined in its previous order:</p>
+<p><img src="https://raw.githubusercontent.com/wiki/agusso/ASOAnimatedButton/Assets/ASOBounceButton-expand-preview.gif" alt="ASOAnimationStyleExpand animation preview"></p>
+<p><code>ASOAnimationStyleRiseProgressively</code> provides an effect where all defined buttons move directly from starting positon to its final position. The movement pace of each buttons are slower gradually:</p>
+<p><img src="https://raw.githubusercontent.com/wiki/agusso/ASOAnimatedButton/Assets/ASOBounceButton-ASOAnimationStyleRiseProgressively-preview.gif" alt="ASOAnimationStyleRiseProgressively animation preview"></p>
+<p><code>ASOAnimationStyleRiseConcurrently</code> provides an effect where all defined buttons move directly from starting position to its final position at the same time:</p>
+<p><img src="https://raw.githubusercontent.com/wiki/agusso/ASOAnimatedButton/Assets/ASOBounceButton-ASOAnimationStyleRiseConcurrently-preview.gif" alt="ASOAnimationStyleRiseConcurrently animation preview"></p>
+<h2>Getting Help</h2>
+<p>If you need help using <code>ASOAnimatedButton</code>, please post a question on <a href="http://stackoverflow.com/questions/ask?tags=asoanimatedbutton">StackOverflow with the &quot;ASOAnimatedButton&quot; tag</a>.</p>
+<p>If you think you found a problem with <code>ASOAnimatedButton</code>, please <a href="https://github.com/agusso/ASOAnimatedButton/issues">post an issue</a>. A sample project or fork of any of the examples demonstrating the problem will be helpful.</p>
+<h2>Author</h2>
+<p>Agus Soedibjo. Copyright (c) 2014 Agus Soedibjo, contact@soedibjo.com</p>
+<h2>License</h2>
+<p><code>ASOAnimatedButton</code> is available under the MIT license. See the LICENSE file for more info.</p>
