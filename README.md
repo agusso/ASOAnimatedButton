@@ -1,7 +1,7 @@
 # ASOAnimatedButton
 
 [![Version](http://cocoapod-badges.herokuapp.com/v/ASOAnimatedButton/badge.png)](https://github.com/agusso/ASOAnimatedButton/releases/tag/1.0.1)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/ASOAnimatedButton/badge.png)](http://www.apple.com/uk/ios/)
+[![Platform](http://cocoapod-badges.herokuapp.com/p/ASOAnimatedButton/badge.png)](https://developer.apple.com/devcenter/ios/index.action)
 
 `ASOAnimatedButton` is an animated button which can be easily configured using Storyboard. There are two effects supported by this library, i.e. bounce-button and two-state effects.
 One of the possible implementations of those effects is it can be used to build a menu buttons such as the one implemented in Android version of Tumblr App.
